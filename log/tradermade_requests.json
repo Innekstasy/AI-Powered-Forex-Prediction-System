@@ -1,0 +1,212 @@
+{
+  "2025-05-06": [
+    {
+      "timestamp": "2025-05-06T09:12:31.038224",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:13:55.091994",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:16:13.962458",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:17:53.722194",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:19:15.430356",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:20:27.133721",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:21:52.898718",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:23:55.200529",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:39:02.378823",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:40:07.551157",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:41:54.898670",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:43:48.502068",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:45:50.048027",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:47:04.583838",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:48:56.726111",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:50:22.560696",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T09:53:03.935894",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:03:36.564629",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:05:27.904593",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:07:23.123427",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:09:09.131809",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:17:27.831435",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:18:35.848297",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:23:48.886515",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:23:59.040435",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:25:31.553891",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:30:47.971567",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:32:03.124877",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:48:59.575318",
+      "pair": "EURUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:49:01.975023",
+      "pair": "GBPUSD"
+    },
+    {
+      "timestamp": "2025-05-06T10:49:03.656385",
+      "pair": "USDJPY"
+    },
+    {
+      "timestamp": "2025-05-06T10:49:05.424452",
+      "pair": "USDCHF"
+    },
+    {
+      "timestamp": "2025-05-06T10:49:07.257151",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-05-06T11:10:23.219107",
+      "pair": "GBPUSD"
+    },
+    {
+      "timestamp": "2025-05-06T11:10:25.581331",
+      "pair": "USDJPY"
+    }
+  ],
+  "2025-06-04": [
+    {
+      "timestamp": "2025-06-04T08:55:51.664684",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-06-04T08:56:16.724276",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-06-04T08:59:06.292248",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-06-04T09:05:58.857654",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-06-04T09:09:53.580571",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-06-04T09:14:57.794168",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-06-04T09:18:29.024380",
+      "pair": "AUDUSD"
+    },
+    {
+      "timestamp": "2025-06-04T09:20:10.007589",
+      "pair": "USDJPY"
+    },
+    {
+      "timestamp": "2025-06-04T09:20:31.869558",
+      "pair": "USDCHF"
+    },
+    {
+      "timestamp": "2025-06-04T11:54:45.104932",
+      "pair": "USDJPY"
+    },
+    {
+      "timestamp": "2025-06-04T11:55:09.983697",
+      "pair": "USDCHF"
+    },
+    {
+      "timestamp": "2025-06-04T11:56:04.977752",
+      "pair": "EURAUD"
+    },
+    {
+      "timestamp": "2025-06-04T11:56:16.216869",
+      "pair": "EURNZD"
+    },
+    {
+      "timestamp": "2025-06-04T11:56:31.585594",
+      "pair": "GBPCHF"
+    },
+    {
+      "timestamp": "2025-06-04T12:18:40.195301",
+      "pair": "USDCHF"
+    }
+  ],
+  "2025-06-06": [
+    {
+      "timestamp": "2025-06-06T15:59:31.753081",
+      "pair": "USDCHF"
+    }
+  ]
+}
