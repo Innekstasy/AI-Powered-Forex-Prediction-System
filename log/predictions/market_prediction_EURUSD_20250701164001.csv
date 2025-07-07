@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-01 16:40:01.607906,EURUSD,HOLD,1.17869,1.17679,1.17999,HIGH RISK,"{'RSI': np.float64(45.94804142799236), 'SMA': np.float64(1.179922410420009), 'ATR': np.float64(0.0015715020043509823), 'Wyckoff': 'neutral'}",LOW,0.32,SCADUTO

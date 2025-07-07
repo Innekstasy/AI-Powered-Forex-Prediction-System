@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-07 12:43:41.394955,GBPAUD,SELL,2.09294,2.09094,2.09494,NORMAL,"{'RSI': np.float64(80.41768246231884), 'SMA': np.float64(2.0830992647389004), 'ATR': np.float64(0.002707809350150057), 'Wyckoff': 'neutral'}",LOW,0.5,IN ATTESA

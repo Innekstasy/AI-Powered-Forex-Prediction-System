@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-04 17:19:03.425661,EURUSD,SELL,1.17827,1.17717,1.17897,NORMAL,"{'RSI': np.float64(61.39313984169294), 'SMA': np.float64(1.177965589932033), 'ATR': np.float64(0.0008819103240966321), 'Wyckoff': 'neutral'}",LOW,0.48,SCADUTO

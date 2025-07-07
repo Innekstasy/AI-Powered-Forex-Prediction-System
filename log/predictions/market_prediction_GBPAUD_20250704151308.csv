@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-04 15:13:08.426654,GBPAUD,SELL,2.08166,2.07966,2.08366,NORMAL,"{'RSI': np.float64(65.9773739713161), 'SMA': np.float64(2.0779500104250226), 'ATR': np.float64(0.0032114452689034107), 'Wyckoff': 'neutral'}",MEDIUM,0.62,SCADUTO
