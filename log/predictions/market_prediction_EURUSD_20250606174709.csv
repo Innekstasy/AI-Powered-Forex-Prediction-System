@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,status
+2025-06-06 17:47:09.715958,EURUSD,SELL,1.13999,1.13799,1.14199,NORMAL,"{'RSI': np.float64(56.730060445230556), 'SMA': np.float64(1.1263742857142858), 'ATR': np.float64(0.008485714285714287), 'Wyckoff': 'neutral'}",SCADUTO
