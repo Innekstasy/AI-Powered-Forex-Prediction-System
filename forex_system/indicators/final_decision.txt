@@ -1,0 +1,126 @@
+Lo script `final_decision.py` rappresenta **l’ultima fase decisionale** del sistema di predizione Forex: partendo dagli indicatori già calcolati e da un modello AI salvato, prende una **decisione finale concreta di trading** (BUY/SELL), calcola **TP (Take Profit)** e **SL (Stop Loss)** ottimizzati, valuta il rischio, e **salva la previsione in CSV**. Di seguito trovi un’analisi dettagliata di cosa fa, cosa richiama e cosa restituisce.
+
+---
+
+## 🧠 COSA FA `final_decision.py` (step-by-step):
+
+### 1. **Importa moduli e costanti**
+
+* `joblib`, `pandas`, `datetime`, `os`: per caricare modelli/scaler, manipolare DataFrame e gestire percorsi.
+* Cartelle usate:
+
+  * `data/` → input indicatori
+  * `model/` → modelli AI e scaler
+  * `log/predictions/` → output predizioni
+
+---
+
+### 2. **Funzione `make_final_prediction(pair, indicators_df, live_price=None)`**
+
+#### 🔹 **2.1 Caricamento componenti**
+
+* Carica i seguenti oggetti salvati:
+
+  * `model_{pair}.pkl` → modello AI addestrato
+  * `scaler_{pair}.pkl` → normalizzatore
+  * `columns_{pair}.pkl` → colonne richieste
+  * `encoders_{pair}.pkl` → dizionario di `LabelEncoder`
+
+#### 🔹 **2.2 Preparazione input per il modello**
+
+* Estrae **ultima riga** del file indicatori (`indicators_df`) per la predizione.
+* Pulisce colonne non utili come `timestamp`, `ML_TP`, `ML_SL`.
+* Applica gli `encoder` alle colonne categoriche.
+* Aggiunge colonne mancanti (inizializzate a `0`) se necessario.
+
+#### 🔹 **2.3 Predizione modello**
+
+* Applica `scaler` e `model.predict()` → produce `BUY` (`1`) o `SELL` (`0`)
+* Log a console: `"🧠 Modello predizione grezza: BUY/SELL"`
+
+#### 🔹 **2.4 Calcolo TP/SL con ATR**
+
+* Usa `RSI`, `SMA`, `ATR`, `wyckoff_phase` per calcolare TP e SL:
+
+  * TP/SL dinamici con `atr × moltiplicatore` (limitati a range minimo e massimo).
+  * Valuta la forza del trend per usare valori più permissivi.
+  * Determina anche il **rischio** (es. “HIGH RISK” se SELL in fase di accumulo).
+
+#### 🔹 **2.5 Costruzione finale del dizionario `prediction_result`**
+
+Contiene:
+
+```python
+{
+    "timestamp": ..., "pair": ..., "action": ..., "current_price": ...,
+    "tp": ..., "sl": ..., "risk": ...,
+    "indicators_evaluation": {"RSI": ..., "SMA": ..., "ATR": ..., "Wyckoff": ...}
+}
+```
+
+#### 🔹 **2.6 Salvataggio CSV**
+
+* Scrive in `log/predictions/market_prediction_{pair}_{timestamp}.csv`
+
+#### 🔹 **2.7 Output della funzione**
+
+```python
+return action, tp, sl, indicators_evaluation
+```
+
+---
+
+## 🔁 CHI CHIAMA `final_decision.py`?
+
+Lo script **non è invocato direttamente da altri** tramite `import`, ma **viene usato da**:
+
+* `main.py` → **durante l’ultima fase del ciclo**, dopo che i dati sono stati fetchati, uniti, e gli indicatori calcolati.
+* `evaluate_ai.py` → lo **legge come CSV** generato in `log/predictions/`.
+
+---
+
+## 📦 SCRIPT ESTERNI RICHIAMATI:
+
+Nessuno **esplicitamente importato** in `final_decision.py`, ma **si appoggia ai file generati da altri moduli**:
+
+| Script                      | Funzione                                                           |
+| --------------------------- | ------------------------------------------------------------------ |
+| `trainer.py`                | Genera e salva `model_*.pkl`, `scaler_*.pkl`, ecc.                 |
+| `indicators.py`             | Produce il DataFrame `indicators_*.csv` usato come `indicators_df` |
+| `main.py`                   | Richiama `make_final_prediction()`                                 |
+| `yfinance_fetcher.py`, ecc. | Generano il dato `live_price` se disponibile                       |
+
+---
+
+## ✅ OUTPUT FINALE
+
+Il file CSV salvato contiene una singola riga per la coppia `pair`, con:
+
+* `action` BUY/SELL
+* `tp`, `sl` (ottimizzati)
+* `rischio`
+* `valutazione indicatori`
+* timestamp
+
+Es. (semplificato):
+
+```csv
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation
+2025-06-24 10:01:23,EURUSD,BUY,1.0756,1.0785,1.0741,NORMAL,"{'RSI': 62, 'SMA': 1.07, ...}"
+```
+
+---
+
+## 🛠 CONCLUSIONI TECNICHE
+
+* ✅ La struttura è **ben isolata**, ogni decisione è presa con il modello AI e rifinita con logica concreta (ATR, RSI, Wyckoff).
+* 📦 Modularità eccellente: può essere sostituito o esteso senza modificare altri moduli.
+* ❗Il codice contiene ancora **commenti legacy o codice deprecato** (es. PATCH anti-SELL, sezioni con `# if action == "BUY"` ecc.)
+* 🔧 Potenziale ottimizzazione:
+
+  * Esporre il risultato anche come `dict` oltre che salvarlo in CSV.
+  * Separare meglio la logica **decisionale** e quella di **salvataggio/logging**.
+
+---
+
+Se vuoi, posso esportarti anche questa spiegazione in `.md` o `.txt`. Vuoi procedere?

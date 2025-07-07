@@ -1,0 +1,121 @@
+Ecco una **spiegazione dettagliata** dello script `loader.py` (letto riga per riga) con evidenza di **funzioni, script richiamati, flusso di esecuzione e cosa restituisce**.
+
+---
+
+### ✅ **OBIETTIVO DELLO SCRIPT `loader.py`**
+
+`loader.py` è il modulo incaricato del **caricamento dei dati storici consolidati**, **verifica della qualità e freschezza**, e **calcolo di tutti gli indicatori tecnici** necessari alla successiva fase predittiva del sistema AI Forex.
+
+---
+
+### 🔁 **FLUSSO LOGICO PRINCIPALE**
+
+#### 1. **Importazioni**
+
+Importa vari moduli di indicatori e librerie:
+
+```python
+from .fibonacci import calculate_fibonacci_levels
+from .rsi import calculate_rsi
+from .sma_atr import calculate_sma_atr
+from .support_resistance import calculate_support_resistance
+from .wyckoff import calculate_wyckoff_phases
+from .ml import calculate_ml_indicator
+```
+
+👉 **6 script esterni richiamati** per calcolare indicatori tecnici.
+
+#### 2. **Funzione `validate_data_quality(df)`**
+
+✔ Verifica e corregge:
+
+* Prezzi negativi o nulli (`open`, `high`, `low`, `close`)
+* Valori `high < low`
+* Colonne duplicate da YFinance
+* `NaN`, `inf`, `-inf`
+
+➡ Restituisce `df` pulito.
+
+#### 3. **Funzione `check_data_freshness(df, max_latency_minutes=5)`**
+
+✔ Controlla la latenza temporale tra `now` e `timestamp` ultima riga:
+
+* Se la latenza > 5 minuti, ritorna `False`
+* Altrimenti `True`
+
+#### 4. **Funzione principale: `calculate_all_indicators(pair)`**
+
+**Input**: `pair` (es. `"EURUSD"`)
+
+✔ Azioni:
+
+* Carica il CSV consolidato `market_data_consolidated_{pair}.csv`
+* Verifica colonne richieste (`timestamp`, `open`, `high`, `low`, `close`, `volume`)
+* Controlla che ci siano almeno 10 righe valide
+* Chiama `validate_data_quality(df)`
+* Chiama `check_data_freshness(df)`
+
+  * Se i dati non sono freschi: prova a richiamare `fetch_data_for_pair(pair)` da `forex_system.fetch.fetch_all_data`
+
+✔ Poi calcola **in sequenza** gli indicatori e li aggiunge al `df`:
+
+1. `calculate_fibonacci_levels(df)`
+2. `calculate_rsi(df)`
+3. `calculate_sma_atr(df)`
+4. `calculate_support_resistance(df)`
+5. `calculate_wyckoff_phases(df)`
+6. `calculate_ml_indicator(df, pair, MODEL_DIR)`
+
+✔ Pulisce i NaN risultanti da questi calcoli
+✔ Salva il file `indicators_{pair}.csv`
+✔ **Restituisce**: il `DataFrame` finale completo degli indicatori
+
+---
+
+### 🔗 **SCRIPT ESTERNI RICHIAMATI (6 diretti + 1 condizionale)**
+
+| Script richiamato       | Funzione chiamata                      | Utilità                                    |
+| ----------------------- | -------------------------------------- | ------------------------------------------ |
+| `fibonacci.py`          | `calculate_fibonacci_levels()`         | Calcola i livelli di Fibonacci             |
+| `rsi.py`                | `calculate_rsi()`                      | Calcola RSI                                |
+| `sma_atr.py`            | `calculate_sma_atr()`                  | Calcola SMA e ATR                          |
+| `support_resistance.py` | `calculate_support_resistance()`       | Trova livelli chiave                       |
+| `wyckoff.py`            | `calculate_wyckoff_phases()`           | Rileva fase Wyckoff                        |
+| `ml.py`                 | `calculate_ml_indicator()`             | Fornisce TP/SL predetti via modello ML     |
+| `fetch_all_data.py`     | `fetch_data_for_pair()` (condizionale) | Se i dati non sono aggiornati, li ricarica |
+
+---
+
+### 📤 **VALORE RESTITUITO**
+
+Restituisce un `DataFrame` pronto:
+
+* Con tutti gli **indicatori calcolati**
+* Pulito da NaN
+* Salvato anche su file CSV `indicators_{pair}.csv`
+
+---
+
+### 📦 **UTILIZZO NEL SISTEMA**
+
+Questo script viene richiamato:
+
+* Da `main.py` → per generare dati indicatori prima della predizione
+* Da `update_and_train.py` → per aggiornare ed addestrare i modelli
+* Indirettamente da `final_decision.py` → perché usa indicatori salvati
+
+---
+
+### ✅ CONSIDERAZIONI FINALI
+
+* Lo script è **ben strutturato** e fa uso di moduli separati per ciascun indicatore.
+* Tutti i valori vengono **sanificati e normalizzati**, evitando crash futuri.
+* L'aggiunta del controllo **sulla freschezza dei dati** è utile per evitare previsioni su dati vecchi.
+* Eventuali miglioramenti futuri potrebbero includere:
+
+  * Logica di fallback più robusta se `fetch_data_for_pair()` fallisce
+  * Esposizione dei messaggi di errore in log strutturato (es. CSV o JSON)
+
+---
+
+Se vuoi, posso creare anche un file `.md` o `.pdf` con questa spiegazione. Vuoi che lo generi?

@@ -1,0 +1,113 @@
+Ecco l’analisi dettagliata e rigorosa dello script `trainer.py`.
+
+---
+
+## 📂 **Script**: `trainer.py`
+
+**Scopo principale:** Addestrare un modello di classificazione (XGBoost) per una coppia Forex, salvando modello, scaler, colonne e label encoder per l’inferenza successiva.
+
+---
+
+## 🔁 **Funzioni definite**
+
+### 🔧 `train_model_for_pair(pair, indicators_df)`
+
+**Input:**
+
+* `pair` → stringa (es. "EURUSD")
+* `indicators_df` → DataFrame con tutti gli indicatori pre-calcolati
+
+**Flusso dettagliato:**
+
+1. **Pulizia colonne non utili:**
+
+   * Rimozione colonne contenenti: `timestamp`, `ML_TP`, `ML_SL`
+
+2. **Label encoding (oggetti/categorie):**
+
+   * Le colonne `object` vengono convertite in numeriche via `LabelEncoder`
+   * Gli encoder vengono salvati per poter riutilizzare la stessa codifica in fase di predizione
+
+3. **Riempimento dei NaN:**
+
+   * Prezzi (open, close, ecc.): `ffill().bfill()`
+   * Altri numerici: media della colonna o zero
+
+4. **Creazione target binario:**
+
+   * `target = 1` se il prezzo a N=15 candele è salito di almeno 0.03%
+   * `target = 0` altrimenti (sell)
+   * Si rimuovono le righe dove il cambio è trascurabile (filtraggio `mask_valid`)
+
+5. **Split dati:**
+
+   * `train_test_split` senza shuffle (mantiene sequenza temporale)
+
+6. **Feature scaling:**
+
+   * `StandardScaler` usato su X (train/test)
+
+7. **XGBoost Training:**
+
+   * Se `use_balancing=True`, viene usato `scale_pos_weight` per riequilibrare classi squilibrate
+   * Parametri: `max_depth=5`, `n_estimators=100`, `learning_rate=0.1`
+
+8. **Salvataggio output:**
+
+   * `model.pkl`
+   * `scaler.pkl`
+   * `columns.pkl` (lista delle colonne usate nel training)
+   * `encoders.pkl` (dict dei `LabelEncoder` per ogni colonna categoriale)
+
+---
+
+## 🔄 **Richiami da/verso altri script**
+
+### 📥 Lo chiama:
+
+* `update_and_train.py`: dopo aver unito i dati e calcolato gli indicatori
+
+### 📤 Chiama:
+
+* Nessun altro script direttamente, ma usa:
+
+  * `joblib` per serializzare
+  * `xgboost.XGBClassifier`
+  * `sklearn.model_selection.train_test_split`
+  * `sklearn.preprocessing.StandardScaler`, `LabelEncoder`
+
+---
+
+## 📁 File generati
+
+* `model/model_<pair>.pkl` → modello AI
+* `model/scaler_<pair>.pkl` → scaler normalizzazione
+* `model/columns_<pair>.pkl` → colonne input
+* `model/encoders_<pair>.pkl` → codificatori per inferenza
+
+---
+
+## ✅ Output finale
+
+Nessun ritorno diretto. Tutto viene salvato su disco.
+Il training è considerato valido se:
+
+* `len(features_df) >= 10`
+* Non ci sono errori di encoding o NaN residui
+
+---
+
+## ⚠️ Possibili ottimizzazioni
+
+1. **Modularizzazione dei preprocessing step** → ora tutto in una funzione monolitica.
+2. **Salvataggio dei parametri di bilanciamento nel JSON `training_info.json`** (non lo fa).
+3. **Supporto al retraining incrementale (se richiesto in futuro)** → non previsto.
+4. **Integrazione logging strutturato invece di `print()`** → per uso in produzione.
+
+---
+
+## 🔥 Conclusione
+
+Lo script è robusto, fa il suo dovere, e si integra correttamente nella pipeline. È chiamato *una sola volta per coppia* e non è pensato per l'inferenza ma solo per la fase di training.
+
+Vuoi che continui con `model_utils.py` o preferisci passarmi altro?

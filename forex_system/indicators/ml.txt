@@ -1,0 +1,128 @@
+Ecco l’analisi dettagliata dello script `ml.py`.
+
+---
+
+### 📌 **FUNZIONI PRESENTI**
+
+```python
+def predict_tp_sl_ml(df, pair)
+def calculate_ml_indicator(df, pair, model_dir)
+```
+
+---
+
+## ✅ **FUNZIONE: `predict_tp_sl_ml(df, pair)`**
+
+### 🔧 Cosa fa:
+
+1. **Carica il modello AI**:
+
+   ```python
+   model = load_model(pair)
+   ```
+
+   Chiama `load_model()` da `model_utils.py` per caricare il modello `.pkl` relativo alla coppia `pair`.
+
+2. **Estrae l’ultima riga valida**:
+
+   ```python
+   last_row = df.dropna().iloc[-1:].drop(columns=['RSI', 'SMA', 'ATR'], errors='ignore')
+   ```
+
+   * Pulisce i `NaN`
+   * Rimuove colonne non necessarie all’inferenza
+   * Tiene solo l’ultima riga con dati completi
+
+3. **Effettua la previsione**:
+
+   ```python
+   tp_pred, sl_pred = model.predict(last_row)[0]
+   ```
+
+   * Usa il modello per predire `Take Profit` e `Stop Loss`
+
+4. **Corregge predizioni nulle (failsafe)**:
+   Se il TP o SL coincide con il `close`, applica uno scarto minimo `±0.002` per evitare TP=SL=Close.
+
+5. **Restituisce**:
+
+   ```python
+   return {'tp': tp, 'sl': sl}
+   ```
+
+### ❌ In caso di errore:
+
+Restituisce:
+
+```python
+{'tp': None, 'sl': None}
+```
+
+---
+
+## ✅ **FUNZIONE: `calculate_ml_indicator(df, pair, model_dir)`**
+
+### 🔧 Cosa fa:
+
+1. Chiama la funzione sopra:
+
+   ```python
+   prediction = predict_tp_sl_ml(df, pair)
+   ```
+
+2. Inserisce il risultato nel DataFrame:
+
+   ```python
+   df['ML_TP'] = prediction['tp']
+   df['ML_SL'] = prediction['sl']
+   ```
+
+3. In caso di errore, fallback:
+
+   ```python
+   df['ML_TP'] = None
+   df['ML_SL'] = None
+   ```
+
+4. **Restituisce**:
+   Il `DataFrame` arricchito con due nuove colonne:
+
+   * `ML_TP`
+   * `ML_SL`
+
+---
+
+## 📤 **COSA RESTITUISCE LO SCRIPT**
+
+* `predict_tp_sl_ml` → dizionario `{tp: float, sl: float}`
+* `calculate_ml_indicator` → `DataFrame` originale con `ML_TP` e `ML_SL` aggiunti
+
+---
+
+## 🔁 **SCRIPT RICHIAMATI**
+
+* **1**: `model_utils.py`
+
+  * Usa: `load_model(pair)` → recupera il modello AI già addestrato
+
+---
+
+## 📎 **SCRIPT CHE LO RICHIAMANO**
+
+Almeno i seguenti:
+
+* `trainer.py` (durante la fase finale del training o post-training)
+* `merge_data.py` (se integrato nel calcolo degli indicatori tecnici)
+* `main.py` (durante ciclo di predizione)
+
+---
+
+## ⚠️ NOTE CRITICHE
+
+* Nessun logging avanzato né salvataggio fallback: sarebbe utile in caso di `None`.
+* Il failsafe `±0.002` è hardcoded → può causare incoerenza tra coppie con volatilità diversa.
+* Nessun controllo sulla consistenza del modello caricato (feature compatibili, dimensione input ecc.)
+
+---
+
+Se vuoi posso modularizzare il failsafe o aggiungere log interni. Vuoi rendere dinamico lo `scarto minimo` (es. proporzionale all’ATR)?

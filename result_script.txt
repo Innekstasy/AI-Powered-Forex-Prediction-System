@@ -1,0 +1,2913 @@
+
+(venv) E:\CODE\FOREX_V4>python evaluate_ai.py
+
+ Segnali IN ATTESA trovati in: market_prediction_AUDCAD.csv
+    2025-07-04 13:08:07 | None | HOLD | status letto: IN ATTESA
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 13:08:07
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89114
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                      IN ATTESA
+Name: 0, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 13:12:57
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89104
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 1, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 13:47:47
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89094
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 2, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 13:49:40
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89108
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 3, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 14:00:04
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89116
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 4, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 14:10:25
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89116
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 5, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 14:20:50
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89099
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 6, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 14:31:10
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89109
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 7, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 14:41:35
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89107
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 8, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 14:52:01
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89102
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 9, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 15:02:27
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89126
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 10, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 15:08:14
+pair                           AUDCAD
+action                           HOLD
+entry_price                   0.89124
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 11, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDCAD.csv: timestamp         2025-07-04 15:18:53
+pair                           AUDCAD
+action                           HOLD
+entry_price                    0.8911
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 12, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_AUDCHF.csv
+    2025-07-04 14:55:07 | None | HOLD | status letto: IN ATTESA
+ Segnale incompleto scartato in market_prediction_AUDCHF.csv: timestamp              2025-07-04 14:55:07
+pair                                AUDCHF
+action                                HOLD
+entry_price                         0.5195
+tp                                     NaN
+sl                                     NaN
+confidence                             1.0
+ML_CONFIDENCE_SCORE                    NaN
+rsi                                    NaN
+wyckoff                                NaN
+trend_strength                         NaN
+status                           IN ATTESA
+Name: 0, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-06-27 21:11:08
+pair                           AUDUSD
+action                            NaN
+entry_price                   0.65325
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 2, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-03 16:54:58
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65725
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 8, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:04:08
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65603
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 9, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:14:13
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65619
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 10, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:21:43
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65634
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 11, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:24:20
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65632
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 12, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:25:29
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65639
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 13, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:29:17
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65626
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 14, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:32:41
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65621
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 15, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:34:25
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65619
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 16, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:44:31
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65583
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 17, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 10:54:37
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65583
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 18, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 11:04:43
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65602
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 19, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 11:14:48
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65617
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 20, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 11:24:55
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65609
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 21, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 11:35:02
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65617
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 22, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 11:45:09
+pair                           AUDUSD
+action                           HOLD
+entry_price                     0.656
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 23, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 11:55:15
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65609
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 24, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 12:05:21
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65596
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 25, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 12:15:27
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65575
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 26, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 12:25:33
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65547
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 27, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 12:35:39
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65547
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 28, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 12:45:45
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65544
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 29, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 12:55:50
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65552
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 30, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 13:05:56
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65556
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 31, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 13:08:08
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65555
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 32, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 13:12:59
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65552
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 33, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 13:47:48
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65514
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 34, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 13:49:42
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65531
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 35, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 13:49:53
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65541
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 36, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 14:00:05
+pair                           AUDUSD
+action                           HOLD
+entry_price                    0.6555
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 37, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 14:10:26
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65547
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 38, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 14:20:51
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65546
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 39, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 14:31:11
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65555
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 40, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 14:41:36
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65524
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 41, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 14:52:02
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65509
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 42, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 15:02:28
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65519
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 43, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 15:08:15
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65522
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 44, dtype: object
+ Segnale incompleto scartato in market_prediction_AUDUSD.csv: timestamp         2025-07-04 15:18:54
+pair                           AUDUSD
+action                           HOLD
+entry_price                   0.65517
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 45, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-01 15:20:46
+pair                           CADCHF
+action                           HOLD
+entry_price                   0.58015
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                        SCADUTO
+Name: 0, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 14:10:27
+pair                           CADCHF
+action                           HOLD
+entry_price                   0.58279
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 4, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 14:20:52
+pair                           CADCHF
+action                           HOLD
+entry_price                     0.583
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 5, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 14:31:13
+pair                           CADCHF
+action                           HOLD
+entry_price                   0.58306
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 6, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 14:41:37
+pair                           CADCHF
+action                           HOLD
+entry_price                   0.58284
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 7, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 14:52:03
+pair                           CADCHF
+action                           HOLD
+entry_price                   0.58302
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 8, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 15:02:29
+pair                           CADCHF
+action                           HOLD
+entry_price                    0.5831
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 9, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 15:08:16
+pair                           CADCHF
+action                           HOLD
+entry_price                   0.58296
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 10, dtype: object
+ Segnale incompleto scartato in market_prediction_CADCHF.csv: timestamp         2025-07-04 15:18:56
+pair                           CADCHF
+action                           HOLD
+entry_price                   0.58307
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 11, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704150810.csv
+    2025-07-04 15:08:10.094596 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704151300.csv
+    2025-07-04 15:13:00.688033 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704151815.csv
+    2025-07-04 15:18:15.600883 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704152157.csv
+    2025-07-04 15:21:57.706201 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704153221.csv
+    2025-07-04 15:32:21.376619 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704154243.csv
+    2025-07-04 15:42:43.929128 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704154749.csv
+    2025-07-04 15:47:49.260711 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704154943.csv
+    2025-07-04 15:49:43.700755 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_CADCHF_20250704160007.csv
+    2025-07-04 16:00:07.054579 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD.csv
+    2025-07-04 13:47:50 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704150811.csv
+    2025-07-04 15:08:11.221326 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704151301.csv
+    2025-07-04 15:13:01.783578 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704151816.csv
+    2025-07-04 15:18:16.897710 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704152158.csv
+    2025-07-04 15:21:58.778188 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704153222.csv
+    2025-07-04 15:32:22.402991 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704154245.csv
+    2025-07-04 15:42:45.144299 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704154750.csv
+    2025-07-04 15:47:50.400374 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704154945.csv
+    2025-07-04 15:49:45.206296 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704160008.csv
+    2025-07-04 16:00:08.304388 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704161029.csv
+    2025-07-04 16:10:29.100153 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704162053.csv
+    2025-07-04 16:20:53.598227 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704163114.csv
+    2025-07-04 16:31:14.072340 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704164138.csv
+    2025-07-04 16:41:38.496498 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704165204.csv
+    2025-07-04 16:52:04.707377 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704170230.csv
+    2025-07-04 17:02:30.620231 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURAUD_20250704170817.csv
+    2025-07-04 17:08:17.255419 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_EURAUD_20250704171857.csv. Inizializzazione con valore 'IN ATTESA'.
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD.csv
+    2025-07-04 13:08:12 | None | HOLD | status letto: IN ATTESA
+ Segnale incompleto scartato in market_prediction_EURCAD.csv: timestamp         2025-07-04 13:08:12
+pair                           EURCAD
+action                           HOLD
+entry_price                   1.60076
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                      IN ATTESA
+Name: 0, dtype: object
+ Segnale incompleto scartato in market_prediction_EURCAD.csv: timestamp         2025-07-04 13:13:02
+pair                           EURCAD
+action                           HOLD
+entry_price                   1.60057
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 1, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704154246.csv
+    2025-07-04 15:42:46.352811 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704154751.csv
+    2025-07-04 15:47:51.416955 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704154946.csv
+    2025-07-04 15:49:46.818711 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704160009.csv
+    2025-07-04 16:00:09.515820 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704161030.csv
+    2025-07-04 16:10:30.586139 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704162054.csv
+    2025-07-04 16:20:54.885216 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704163115.csv
+    2025-07-04 16:31:15.123580 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704164139.csv
+    2025-07-04 16:41:39.612591 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704165205.csv
+    2025-07-04 16:52:05.945323 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704170231.csv
+    2025-07-04 17:02:31.714215 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCAD_20250704170818.csv
+    2025-07-04 17:08:18.287072 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_EURCAD_20250704171859.csv. Inizializzazione con valore 'IN ATTESA'.
+ Segnale incompleto scartato in market_prediction_EURCHF.csv: timestamp         2025-07-01 15:18:54
+pair                           EURCHF
+action                           HOLD
+entry_price                   0.93297
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                        SCADUTO
+Name: 0, dtype: object
+ Segnale incompleto scartato in market_prediction_EURCHF.csv: timestamp         2025-07-04 14:10:31
+pair                           EURCHF
+action                           HOLD
+entry_price                   0.93427
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 4, dtype: object
+ Segnale incompleto scartato in market_prediction_EURCHF.csv: timestamp         2025-07-04 14:20:56
+pair                           EURCHF
+action                           HOLD
+entry_price                   0.93431
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 5, dtype: object
+ Segnale incompleto scartato in market_prediction_EURCHF.csv: timestamp         2025-07-04 14:31:16
+pair                           EURCHF
+action                           HOLD
+entry_price                   0.93442
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 6, dtype: object
+ Segnale incompleto scartato in market_prediction_EURCHF.csv: timestamp         2025-07-04 14:41:40
+pair                           EURCHF
+action                           HOLD
+entry_price                    0.9342
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 7, dtype: object
+ Segnale incompleto scartato in market_prediction_EURCHF.csv: timestamp         2025-07-04 14:52:07
+pair                           EURCHF
+action                           HOLD
+entry_price                   0.93441
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 8, dtype: object
+ Segnale incompleto scartato in market_prediction_EURCHF.csv: timestamp         2025-07-04 15:02:32
+pair                           EURCHF
+action                           HOLD
+entry_price                   0.93461
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 9, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704150813.csv
+    2025-07-04 15:08:13.405972 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704151303.csv
+    2025-07-04 15:13:03.870412 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704151819.csv
+    2025-07-04 15:18:19.286063 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704152200.csv
+    2025-07-04 15:22:00.805570 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704153224.csv
+    2025-07-04 15:32:24.548126 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704154247.csv
+    2025-07-04 15:42:47.490724 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704154752.csv
+    2025-07-04 15:47:52.431434 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704154948.csv
+    2025-07-04 15:49:48.649743 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704160010.csv
+    2025-07-04 16:00:10.732016 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURCHF_20250704170819.csv
+    2025-07-04 17:08:19.393306 | None | BUY | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_EURCHF_20250704171900.csv. Inizializzazione con valore 'IN ATTESA'.
+ Segnale incompleto scartato in market_prediction_EURGBP.csv: timestamp         2025-07-01 15:18:29
+pair                           EURGBP
+action                           HOLD
+entry_price                    0.8588
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                        SCADUTO
+Name: 0, dtype: object
+ Segnale incompleto scartato in market_prediction_EURGBP.csv: timestamp         2025-07-04 13:47:53
+pair                           EURGBP
+action                           HOLD
+entry_price                   0.86292
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 1, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704150814.csv
+    2025-07-04 15:08:14.515563 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704151304.csv
+    2025-07-04 15:13:04.993172 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704151821.csv
+    2025-07-04 15:18:21.064431 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704152201.csv
+    2025-07-04 15:22:01.870611 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704153225.csv
+    2025-07-04 15:32:25.562307 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704154248.csv
+    2025-07-04 15:42:48.728259 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704154950.csv
+    2025-07-04 15:49:50.046481 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704160011.csv
+    2025-07-04 16:00:11.908946 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704161032.csv
+    2025-07-04 16:10:32.836780 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704162057.csv
+    2025-07-04 16:20:57.510601 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704163117.csv
+    2025-07-04 16:31:17.764446 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704164142.csv
+    2025-07-04 16:41:42.748792 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704165208.csv
+    2025-07-04 16:52:08.445382 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704170233.csv
+    2025-07-04 17:02:33.977646 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURGBP_20250704170821.csv
+    2025-07-04 17:08:21.118040 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_EURGBP_20250704171901.csv. Inizializzazione con valore 'IN ATTESA'.
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704150815.csv
+    2025-07-04 15:08:15.609482 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704151306.csv
+    2025-07-04 15:13:06.177274 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704151822.csv
+    2025-07-04 15:18:22.728429 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704152202.csv
+    2025-07-04 15:22:02.885174 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704153226.csv
+    2025-07-04 15:32:26.651204 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704154249.csv
+    2025-07-04 15:42:49.974815 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704154754.csv
+    2025-07-04 15:47:54.884182 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704154951.csv
+    2025-07-04 15:49:51.468738 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704160013.csv
+    2025-07-04 16:00:13.258091 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704161033.csv
+    2025-07-04 16:10:33.863605 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704162058.csv
+    2025-07-04 16:20:58.862205 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704163118.csv
+    2025-07-04 16:31:18.826440 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704164144.csv
+    2025-07-04 16:41:44.495369 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704165209.csv
+    2025-07-04 16:52:09.815255 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704170235.csv
+    2025-07-04 17:02:35.297450 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURNZD_20250704170822.csv
+    2025-07-04 17:08:22.625720 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_EURNZD_20250704171902.csv. Inizializzazione con valore 'IN ATTESA'.
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-06-27 21:10:15
+pair                           EURUSD
+action                            NaN
+entry_price                   1.17192
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 16, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-06-27 21:12:57
+pair                           EURUSD
+action                            NaN
+entry_price                   1.17192
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 17, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-06-27 21:26:02
+pair                           EURUSD
+action                            NaN
+entry_price                   1.17192
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 18, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-06-30 10:18:48
+pair                           EURUSD
+action                            NaN
+entry_price                    1.1722
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 19, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-06-30 10:20:56
+pair                           EURUSD
+action                            NaN
+entry_price                    1.1722
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 20, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-06-30 11:17:15
+pair                           EURUSD
+action                            NaN
+entry_price                   1.17316
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 21, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-06-30 17:02:06
+pair                           EURUSD
+action                            NaN
+entry_price                   1.17675
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 22, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-07-02 13:11:43
+pair                           EURUSD
+action                           HOLD
+entry_price                   1.17786
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 29, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-07-02 13:37:47
+pair                           EURUSD
+action                           HOLD
+entry_price                   1.17716
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 32, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-07-02 14:47:47
+pair                           EURUSD
+action                           HOLD
+entry_price                   1.17661
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 33, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-07-03 15:09:28
+pair                           EURUSD
+action                           HOLD
+entry_price                   1.17592
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 34, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-07-03 16:26:35
+pair                           EURUSD
+action                           HOLD
+entry_price                   1.17509
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 35, dtype: object
+ Segnale incompleto scartato in market_prediction_EURUSD.csv: timestamp         2025-07-03 16:47:38
+pair                           EURUSD
+action                           HOLD
+entry_price                   1.17454
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 36, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704120403.csv
+    2025-07-04 12:04:03.748557 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704121309.csv
+    2025-07-04 12:13:09.241514 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704121409.csv
+    2025-07-04 12:14:09.498082 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704121442.csv
+    2025-07-04 12:14:42.522332 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704122415.csv
+    2025-07-04 12:24:15.155415 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704122508.csv
+    2025-07-04 12:25:08.189248 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704123421.csv
+    2025-07-04 12:34:21.395120 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704124426.csv
+    2025-07-04 12:44:26.884602 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704125432.csv
+    2025-07-04 12:54:32.787748 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704130438.csv
+    2025-07-04 13:04:38.567277 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704131444.csv
+    2025-07-04 13:14:44.500606 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704132450.csv
+    2025-07-04 13:24:50.782396 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704133458.csv
+    2025-07-04 13:34:58.530131 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704134504.csv
+    2025-07-04 13:45:04.146418 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704135510.csv
+    2025-07-04 13:55:10.849964 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704140516.csv
+    2025-07-04 14:05:16.636149 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704141522.csv
+    2025-07-04 14:15:22.479607 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704142529.csv
+    2025-07-04 14:25:29.379469 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704143535.csv
+    2025-07-04 14:35:35.165638 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704144540.csv
+    2025-07-04 14:45:40.823396 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704145546.csv
+    2025-07-04 14:55:46.402280 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704150551.csv
+    2025-07-04 15:05:51.994191 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704150817.csv
+    2025-07-04 15:08:17.102961 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704151307.csv
+    2025-07-04 15:13:07.227794 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704151824.csv
+    2025-07-04 15:18:24.261925 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704152203.csv
+    2025-07-04 15:22:03.837069 | None | SELL | status letto: IN ATTESA
+$EURUSD=X: possibly delisted; no price data found  (period=1d)
+🌐 Recupero prezzo da: https://www.xe.com/currencyconverter/convert/?Amount=1&From=EUR&To=USD
+
+DevTools listening on ws://127.0.0.1:9211/devtools/browser/10d0b4e1-f0cc-44cf-a346-f6513d0a15e5
+📊 Test Prezzo Estratto: 1 USD = 0.848897 EUR
+✅ Prezzo ottenuto per EURUSD: 1.17800
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704152239.csv
+    2025-07-04 15:22:39.588607 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704152321.csv
+    2025-07-04 15:23:21.210129 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704152631.csv
+    2025-07-04 15:26:31.014531 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704153228.csv
+    2025-07-04 15:32:28.107580 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704153450.csv
+    2025-07-04 15:34:50.583674 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704153714.csv
+    2025-07-04 15:37:14.879435 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704154038.csv
+    2025-07-04 15:40:38.056467 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704154251.csv
+    2025-07-04 15:42:51.489060 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704154320.csv
+    2025-07-04 15:43:20.323960 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704154722.csv
+    2025-07-04 15:47:22.315169 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704154756.csv
+    2025-07-04 15:47:56.421521 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704154952.csv
+    2025-07-04 15:49:52.943807 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704160014.csv
+    2025-07-04 16:00:14.339320 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704161035.csv
+    2025-07-04 16:10:35.294636 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704162100.csv
+    2025-07-04 16:21:00.418602 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704163120.csv
+    2025-07-04 16:31:20.235904 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704164147.csv
+    2025-07-04 16:41:47.594486 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704165211.csv
+    2025-07-04 16:52:11.598982 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704170236.csv
+    2025-07-04 17:02:36.686304 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_EURUSD_20250704170824.csv
+    2025-07-04 17:08:24.178483 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_EURUSD_20250704171903.csv. Inizializzazione con valore 'IN ATTESA'.
+ Colonna 'status' mancante nel file log\predictions\market_prediction_EURUSD_20250704172018.csv. Inizializzazione con valore 'IN ATTESA'.
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704150818.csv
+    2025-07-04 15:08:18.558928 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704151308.csv
+    2025-07-04 15:13:08.426654 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704151825.csv
+    2025-07-04 15:18:25.891080 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704152205.csv
+    2025-07-04 15:22:05.236637 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704153229.csv
+    2025-07-04 15:32:29.652158 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704154253.csv
+    2025-07-04 15:42:53.090718 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704154758.csv
+    2025-07-04 15:47:58.117679 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704154954.csv
+    2025-07-04 15:49:54.430395 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704160015.csv
+    2025-07-04 16:00:15.736732 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704161038.csv
+    2025-07-04 16:10:38.096988 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704162101.csv
+    2025-07-04 16:21:01.471808 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704163121.csv
+    2025-07-04 16:31:21.780933 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704164149.csv
+    2025-07-04 16:41:49.084724 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704165213.csv
+    2025-07-04 16:52:13.409589 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704170238.csv
+    2025-07-04 17:02:38.113281 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPAUD_20250704170825.csv
+    2025-07-04 17:08:25.841372 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_GBPAUD_20250704171904.csv. Inizializzazione con valore 'IN ATTESA'.
+ Segnale incompleto scartato in market_prediction_GBPCAD.csv: timestamp         2025-07-04 13:08:20
+pair                           GBPCAD
+action                           HOLD
+entry_price                   1.85523
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 1, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCAD.csv: timestamp         2025-07-04 13:13:09
+pair                           GBPCAD
+action                           HOLD
+entry_price                   1.85496
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 2, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCAD.csv: timestamp         2025-07-04 13:48:00
+pair                           GBPCAD
+action                           HOLD
+entry_price                   1.85615
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 3, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704154955.csv
+    2025-07-04 15:49:55.920431 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704160017.csv
+    2025-07-04 16:00:17.086915 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704161039.csv
+    2025-07-04 16:10:39.766302 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704162102.csv
+    2025-07-04 16:21:02.650251 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704163123.csv
+    2025-07-04 16:31:23.513815 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704164150.csv
+    2025-07-04 16:41:50.606368 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704165215.csv
+    2025-07-04 16:52:15.277964 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704170239.csv
+    2025-07-04 17:02:39.459058 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCAD_20250704170827.csv
+    2025-07-04 17:08:27.533644 | None | BUY | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_GBPCAD_20250704171905.csv. Inizializzazione con valore 'IN ATTESA'.
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF.csv
+    2025-07-04 13:48:01 | None | BUY | status letto: IN ATTESA
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 14:10:41
+pair                           GBPCHF
+action                           HOLD
+entry_price                    1.0819
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 3, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 14:21:04
+pair                           GBPCHF
+action                           HOLD
+entry_price                   1.08234
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 4, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 14:31:26
+pair                           GBPCHF
+action                           HOLD
+entry_price                   1.08261
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 5, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 14:41:52
+pair                           GBPCHF
+action                           HOLD
+entry_price                   1.08245
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 6, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 14:52:16
+pair                           GBPCHF
+action                           HOLD
+entry_price                    1.0823
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 7, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 15:02:40
+pair                           GBPCHF
+action                           HOLD
+entry_price                   1.08271
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 8, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 15:08:29
+pair                           GBPCHF
+action                           HOLD
+entry_price                    1.0827
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 9, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPCHF.csv: timestamp         2025-07-04 15:19:06
+pair                           GBPCHF
+action                           HOLD
+entry_price                   1.08249
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 10, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704150821.csv
+    2025-07-04 15:08:21.433904 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704151311.csv
+    2025-07-04 15:13:11.041462 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704151828.csv
+    2025-07-04 15:18:28.934425 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704152210.csv
+    2025-07-04 15:22:10.650512 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704153232.csv
+    2025-07-04 15:32:32.835251 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704154256.csv
+    2025-07-04 15:42:56.137494 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704154801.csv
+    2025-07-04 15:48:01.393484 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704154957.csv
+    2025-07-04 15:49:57.278832 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPCHF_20250704160018.csv
+    2025-07-04 16:00:18.274260 | None | BUY | status letto: IN ATTESA
+ Segnale incompleto scartato in market_prediction_GBPUSD.csv: timestamp         2025-06-27 21:10:37
+pair                           GBPUSD
+action                            NaN
+entry_price                   1.37229
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 3, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPUSD.csv: timestamp         2025-06-30 10:19:49
+pair                           GBPUSD
+action                            NaN
+entry_price                   1.36962
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 4, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPUSD.csv: timestamp         2025-07-01 15:12:05
+pair                           GBPUSD
+action                           HOLD
+entry_price                   1.37088
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 7, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPUSD.csv: timestamp         2025-07-01 15:15:09
+pair                           GBPUSD
+action                           HOLD
+entry_price                   1.37093
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 8, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPUSD.csv: timestamp         2025-07-03 15:09:46
+pair                           GBPUSD
+action                           HOLD
+entry_price                    1.3642
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 13, dtype: object
+ Segnale incompleto scartato in market_prediction_GBPUSD.csv: timestamp         2025-07-03 16:52:44
+pair                           GBPUSD
+action                           HOLD
+entry_price                   1.36442
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 14, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704120404.csv
+    2025-07-04 12:04:04.928499 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704121410.csv
+    2025-07-04 12:14:10.633399 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704121705.csv
+    2025-07-04 12:17:05.948688 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704122416.csv
+    2025-07-04 12:24:16.391908 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704123422.csv
+    2025-07-04 12:34:22.434429 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704123539.csv
+    2025-07-04 12:35:39.713753 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704124428.csv
+    2025-07-04 12:44:28.080747 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704125434.csv
+    2025-07-04 12:54:34.120186 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704130439.csv
+    2025-07-04 13:04:39.689314 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704131445.csv
+    2025-07-04 13:14:45.617305 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704132451.csv
+    2025-07-04 13:24:51.907168 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704133459.csv
+    2025-07-04 13:34:59.565255 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704134505.csv
+    2025-07-04 13:45:05.555884 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704135512.csv
+    2025-07-04 13:55:12.041253 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704140517.csv
+    2025-07-04 14:05:17.692180 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704141523.csv
+    2025-07-04 14:15:23.637801 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704142530.csv
+    2025-07-04 14:25:30.513832 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704143536.csv
+    2025-07-04 14:35:36.214781 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704144541.csv
+    2025-07-04 14:45:41.917629 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704145547.csv
+    2025-07-04 14:55:47.543069 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704150553.csv
+    2025-07-04 15:05:53.103346 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704150822.csv
+    2025-07-04 15:08:22.995133 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704151312.csv
+    2025-07-04 15:13:12.554185 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704151830.csv
+    2025-07-04 15:18:30.403615 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704152211.csv
+    2025-07-04 15:22:11.673772 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704153234.csv
+    2025-07-04 15:32:34.356138 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704154257.csv
+    2025-07-04 15:42:57.664505 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704154802.csv
+    2025-07-04 15:48:02.581521 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704154958.csv
+    2025-07-04 15:49:58.674849 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704160019.csv
+    2025-07-04 16:00:19.461541 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704161042.csv
+    2025-07-04 16:10:42.649143 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704162105.csv
+    2025-07-04 16:21:05.095896 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704163127.csv
+    2025-07-04 16:31:27.822059 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704164153.csv
+    2025-07-04 16:41:53.694640 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704165218.csv
+    2025-07-04 16:52:18.616092 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704170242.csv
+    2025-07-04 17:02:42.136087 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704170830.csv
+    2025-07-04 17:08:30.922359 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_GBPUSD_20250704170847.csv
+    2025-07-04 17:08:47.652042 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_GBPUSD_20250704171907.csv. Inizializzazione con valore 'IN ATTESA'.
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-01 15:18:41
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60868
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                        SCADUTO
+Name: 0, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 13:08:24
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60617
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 1, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 13:13:13
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60606
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 2, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 13:48:03
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60588
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 3, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 13:50:00
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60599
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 4, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 14:00:20
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60591
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 5, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 14:10:43
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60591
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 6, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 14:21:06
+pair                           NZDUSD
+action                           HOLD
+entry_price                    0.6061
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 7, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 14:31:29
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60621
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 8, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 14:41:55
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60584
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 9, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 14:52:20
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60544
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 10, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 15:02:43
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60551
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 11, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 15:08:32
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60533
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 12, dtype: object
+ Segnale incompleto scartato in market_prediction_NZDUSD.csv: timestamp         2025-07-04 15:19:08
+pair                           NZDUSD
+action                           HOLD
+entry_price                   0.60536
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 13, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD.csv
+    2025-07-04 13:48:05 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704150825.csv
+    2025-07-04 15:08:25.845539 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704151315.csv
+    2025-07-04 15:13:15.485697 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704151833.csv
+    2025-07-04 15:18:33.245975 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704152215.csv
+    2025-07-04 15:22:15.026753 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704153237.csv
+    2025-07-04 15:32:37.159341 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704154310.csv
+    2025-07-04 15:43:10.007267 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704154805.csv
+    2025-07-04 15:48:05.578792 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704155001.csv
+    2025-07-04 15:50:01.117190 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704160021.csv
+    2025-07-04 16:00:21.759609 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704161045.csv
+    2025-07-04 16:10:45.388911 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704162107.csv
+    2025-07-04 16:21:07.159190 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704163130.csv
+    2025-07-04 16:31:30.777486 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704164156.csv
+    2025-07-04 16:41:56.745149 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704165222.csv
+    2025-07-04 16:52:22.237965 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704170244.csv
+    2025-07-04 17:02:44.834514 | None | SELL | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCAD_20250704170834.csv
+    2025-07-04 17:08:34.373618 | None | SELL | status letto: IN ATTESA
+ Colonna 'status' mancante nel file log\predictions\market_prediction_USDCAD_20250704171910.csv. Inizializzazione con valore 'IN ATTESA'.
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 10:14:12
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79355
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 13, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 10:24:18
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79346
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 14, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 10:34:24
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79362
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 15, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 10:44:30
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79377
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 16, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 10:54:36
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79368
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 17, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 11:04:41
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79363
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 18, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 11:10:31
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79353
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 19, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 11:14:47
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79354
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 20, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 11:24:54
+pair                           USDCHF
+action                           HOLD
+entry_price                    0.7933
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 21, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 11:35:01
+pair                           USDCHF
+action                           HOLD
+entry_price                    0.7935
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 22, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 11:45:08
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79384
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 23, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 11:55:14
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79378
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 24, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 12:05:19
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79384
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 25, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 12:15:26
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79432
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 26, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 12:25:32
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79414
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 27, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 12:35:38
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79414
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 28, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 12:45:44
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79433
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 29, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 12:55:49
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79418
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 30, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 13:05:55
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79411
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 31, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 13:08:27
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79423
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 32, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 13:13:17
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79427
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 33, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 13:48:06
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79329
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 34, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 13:50:02
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79323
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 35, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 14:00:22
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79314
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 36, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 14:10:46
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79289
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 37, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 14:21:08
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79305
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 38, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 14:31:32
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79312
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 39, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 14:37:05
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79293
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 40, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 14:41:58
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79313
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 41, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 14:52:23
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79356
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 42, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 15:02:46
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79357
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 43, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 15:08:36
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79345
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 44, dtype: object
+ Segnale incompleto scartato in market_prediction_USDCHF.csv: timestamp         2025-07-04 15:19:12
+pair                           USDCHF
+action                           HOLD
+entry_price                   0.79344
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 45, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCHF_20250703185423.csv
+    2025-07-03 18:54:23.874783 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDCHF_20250704120407.csv
+    2025-07-04 12:04:07.058909 | None | BUY | status letto: IN ATTESA
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-06-27 21:10:48
+pair                           USDJPY
+action                            NaN
+entry_price                 144.61501
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 1, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-01 15:15:20
+pair                           USDJPY
+action                           HOLD
+entry_price                   143.552
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 4, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 10:14:11
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.323
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 9, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 10:23:06
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.327
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 10, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 10:24:17
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.325
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 11, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 10:34:23
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.362
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 12, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 10:44:29
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.358
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 13, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 10:54:35
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.341
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 14, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 11:04:40
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.343
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 15, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 11:14:46
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.334
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 16, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 11:24:53
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.31799
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 17, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 11:35:00
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.33099
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 18, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 11:45:07
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.34399
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 19, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 11:55:13
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.37601
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 20, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 12:05:18
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.37801
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 21, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 12:15:24
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.396
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 22, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 12:25:31
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.403
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 23, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 12:35:37
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.401
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 24, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 12:45:42
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.43401
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 25, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 12:55:48
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.407
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 26, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 13:05:54
+pair                           USDJPY
+action                           HOLD
+entry_price                    144.41
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 27, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 13:08:28
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.397
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 28, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 13:13:18
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.429
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 29, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 13:48:08
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.468
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 30, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 13:50:03
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.44901
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 31, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 14:00:24
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.46899
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 32, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 14:10:48
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.452
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 33, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 14:21:09
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.463
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 34, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 14:31:33
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.47301
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 35, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 14:41:59
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.49699
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 36, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 14:52:25
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.545
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 37, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 15:02:47
+pair                           USDJPY
+action                           HOLD
+entry_price                 144.52901
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 38, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 15:08:37
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.506
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 39, dtype: object
+ Segnale incompleto scartato in market_prediction_USDJPY.csv: timestamp         2025-07-04 15:19:13
+pair                           USDJPY
+action                           HOLD
+entry_price                   144.508
+tp                                NaN
+sl                                NaN
+confidence                        1.0
+rsi                               NaN
+wyckoff                           NaN
+trend_strength                    NaN
+status                            NaN
+Name: 40, dtype: object
+
+ Segnali IN ATTESA trovati in: market_prediction_USDJPY_20250703185251.csv
+    2025-07-03 18:52:51.070964 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDJPY_20250703185347.csv
+    2025-07-03 18:53:47.760894 | None | BUY | status letto: IN ATTESA
+
+ Segnali IN ATTESA trovati in: market_prediction_USDJPY_20250704120405.csv
+    2025-07-04 12:04:05.955301 | None | BUY | status letto: IN ATTESA
+
+Analisi dettagliata BUY:
+Trade chiusi: 55
+Trade in attesa: 39
+TP raggiunti: 29
+SL raggiunti: 26
+Precision reale: 52.73%
+Recall reale: 30.85%
+
+Analisi dettagliata SELL:
+Trade chiusi: 176
+Trade in attesa: 151
+TP raggiunti: 24
+SL raggiunti: 152
+Precision reale: 13.64%
+Recall reale: 7.34%
+Report valutazione generato: log\evaluate_ai\valutazione_ai_20250704172155.html
+
+(venv) E:\CODE\FOREX_V4>

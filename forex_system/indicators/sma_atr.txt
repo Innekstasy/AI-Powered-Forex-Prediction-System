@@ -1,0 +1,101 @@
+### 🔍 Analisi dettagliata di `sma_atr.py`
+
+---
+
+#### ✅ **Funzione del file**
+
+Il modulo `sma_atr.py` ha un solo scopo: calcolare due indicatori tecnici fondamentali per il trading:
+
+1. **SMA (Simple Moving Average)** – media mobile semplice sui prezzi di chiusura.
+2. **ATR (Average True Range)** – misura della volatilità del mercato.
+
+---
+
+#### ⚙️ **Funzioni contenute**
+
+##### 1. `calculate_true_range(high, low, previous_close)`
+
+* Calcola il **True Range** per un singolo periodo, come definito da Wilder.
+* Ritorna il massimo tra:
+
+  * high - low
+  * abs(high - previous\_close)
+  * abs(low - previous\_close)
+
+> Nessun richiamo esterno. È funzione interna usata solo da `calculate_sma_atr()`.
+
+---
+
+##### 2. `calculate_sma_atr(df, period=14)`
+
+* Input:
+
+  * `df`: DataFrame Pandas con almeno le colonne `high`, `low`, `close`.
+  * `period`: default 14 (può essere modificato).
+* Output:
+
+  * DataFrame **con due nuove colonne**:
+
+    * `SMA`: media mobile semplice dei prezzi di chiusura.
+    * `ATR`: volatilità media usando il True Range.
+* Passaggi:
+
+  1. Calcola `SMA` su `close`.
+  2. Crea lista `true_range[]` ciclando riga per riga.
+  3. Applica rolling sum su `true_range` per ottenere `ATR`.
+  4. Fa `backfill` e `fillna(0)` per evitare NaN nelle prime righe.
+  5. Rimuove colonna temporanea `TR`.
+
+---
+
+#### 🔁 **Dipendenze**
+
+* **Moduli usati**:
+
+  * `numpy` per `np.sum()` e funzioni matematiche.
+  * `pandas` implicito nel DataFrame (`df`) in input.
+
+* **Altri script richiamati**: **nessuno**.
+
+* **Richiamato da**: tipicamente altri moduli di indicatori come:
+
+  * `trainer.py`
+  * `strategy.py` (se usato per determinare SL/TP o trend)
+  * `target_calculator.py` (per calcolare le bande di stop dinamiche)
+
+---
+
+#### 📤 **Cosa restituisce**
+
+* Un **DataFrame Pandas modificato**, contenente:
+
+  * `SMA`
+  * `ATR`
+  * (il resto delle colonne originali)
+
+---
+
+#### 🧼 Considerazioni tecniche
+
+* ✅ Calcolo ATR secondo Wilder corretto.
+* ✅ Pulizia colonna `TR` dopo uso.
+* ✅ Uso protettivo di `.bfill().fillna(0)` per stabilità nei modelli.
+* ⚠️ Eventuali miglioramenti:
+
+  * Potresti passare la colonna `previous_close` direttamente invece che ricalcolarla manualmente ogni volta (`df['close'].shift(1)`).
+  * Attualmente fa un ciclo `for` con `iloc` che è meno performante su dataset grandi → può essere vectorizzato.
+
+---
+
+### 🧩 Riassunto
+
+| Aspetto             | Dettagli                                                        |
+| ------------------- | --------------------------------------------------------------- |
+| Scopo               | Calcolo di SMA e ATR su dati OHLC                               |
+| Output              | DataFrame con colonne `SMA` e `ATR`                             |
+| Input               | DataFrame Pandas con colonne `high`, `low`, `close`             |
+| Script richiamati   | Nessuno                                                         |
+| Script che lo usano | `trainer.py`, `target_calculator.py`, `strategy.py` (probabile) |
+| Dipendenze          | `numpy`                                                         |
+
+Fammi sapere se vuoi anche la versione ottimizzata (vectorizzata) senza modificare l’output.

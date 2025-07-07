@@ -1,0 +1,149 @@
+Ecco la **spiegazione dettagliata dello script `merge_data.py`**, riga per riga, con evidenza di:
+
+* **Cosa fa**
+* **Quali altri script richiama** (nessuno diretto)
+* **Cosa restituisce**
+* **Punti forti e criticità**
+
+---
+
+## ✅ COSA FA LO SCRIPT
+
+Lo script `merge_data.py` serve a **consolidare i dati di mercato** (price, volume, timestamp) provenienti da più sorgenti (fetcher/API), unendo file CSV etichettati come `market_data_*_{pair}.csv` in un unico file finale `market_data_consolidated_{pair}.csv`.
+
+---
+
+## 🔄 FUNZIONAMENTO PASSO-PASSO
+
+1. **Import delle librerie**
+   Importa `pandas`, `glob`, `os`, `datetime` → nessun modulo esterno custom è richiamato direttamente.
+
+2. **Costanti definite**:
+
+   * `FETCHERS_ACRONYMS`: lista delle sigle previste nei file generati dai vari fetcher.
+   * `DATA_DIR`: cartella dove sono salvati i dati raw (`data/`).
+   * `OUTPUT_DIR`: stesso percorso per output consolidato.
+
+3. **Funzione principale `consolidate_csv_data(pair, priority_live=True)`**:
+
+   * Argomento `pair`: valuta da elaborare (es. "EURUSD")
+   * Se `priority_live=True` → preferisce usare dati "LIVE" se aggiornati (< 5 minuti)
+
+---
+
+### 🧩 STEP INTERNO 1: uso dei dati LIVE se disponibili e freschi
+
+```python
+if os.path.exists(live_file):
+  ...
+  if latency < 5:
+    return df
+```
+
+✔️ Se trova un file `market_data_LIVE_{pair}.csv` aggiornato a meno di 5 minuti:
+
+* Lo salva direttamente come `market_data_consolidated_{pair}.csv`
+* Restituisce subito il DataFrame → **salta il merge**
+
+---
+
+### 🧩 STEP INTERNO 2: merge da più CSV
+
+Se i dati LIVE non sono freschi:
+
+* Cerca **tutti i file CSV** `market_data_*_{pair}.csv`
+* Li divide in:
+
+  * `live_files`
+  * `historical_files`
+    Ordinati secondo la priorità.
+
+✔️ Per ciascun file:
+
+* Verifica che abbia una sigla valida tra quelle in `FETCHERS_ACRONYMS`
+* Converte il timestamp in `datetime UTC`
+* Aggiunge al merge
+
+---
+
+### 🔧 PULIZIA & UNIFICAZIONE
+
+* Rimuove timestamp corrotti o nulli
+* Elimina colonne duplicate (es. da YFinance)
+* Garantisce la presenza delle colonne `timestamp, open, high, low, close, volume`
+* Ordina i dati per `timestamp`
+* **Riempi buchi (forward/backward fill)** per prezzi
+* `volume` viene riempito con `0` se mancante
+* Calcola la **latenza finale** rispetto al tempo attuale
+* Salva il file consolidato
+
+---
+
+## 📤 COSA RESTITUISCE
+
+```python
+return consolidated_df
+```
+
+Restituisce il DataFrame **consolidato** pronto per l’analisi tecnica o machine learning.
+
+---
+
+## 🧩 SCRIPT RICHIAMATI
+
+**Nessun altro script custom viene richiamato direttamente.**
+È però **richiamato da altri**, come:
+
+* `update_and_train.py`
+* `main.py`
+* e ogni processo che voglia unificare i CSV prima del calcolo degli indicatori o dell’addestramento.
+
+---
+
+## ✅ PUNTI DI FORZA
+
+* Logica robusta con fallback e check di latenza
+* Supporta diversi fetcher
+* Formattazione timestamp coerente
+* Mantiene tutta la storicità
+* Riempimento automatico dei buchi nei prezzi
+
+---
+
+## ⚠️ POSSIBILI MIGLIORAMENTI
+
+1. **Validazione di schema e struttura**:
+
+   * Potresti verificare che le colonne contengano valori coerenti (non solo esistano).
+   * Alcuni fetcher possono salvare colonne extra non previste.
+
+2. **Gestione fetcher falliti / corrotti**:
+
+   * Se un file ha 0 righe o valori NaN, puoi aggiungere un warning specifico.
+
+3. **Modularizzazione**:
+
+   * Potresti separare in funzioni:
+
+     * `load_and_clean_csv(file)`
+     * `prioritize_and_filter_files()`
+     * `finalize_dataframe()`
+       → migliora leggibilità.
+
+---
+
+## 🔚 IN SINTESI
+
+| Elemento           | Dettaglio                                              |
+| ------------------ | ------------------------------------------------------ |
+| Script             | `merge_data.py`                                        |
+| Funzione chiave    | `consolidate_csv_data(pair, priority_live=True)`       |
+| Input              | Coppia di valute (es. "EURUSD")                        |
+| Output             | File `market_data_consolidated_{pair}.csv` + DataFrame |
+| Richiama           | Nessuno direttamente                                   |
+| Richiamato da      | `update_and_train.py`, `main.py`, pipeline ML          |
+| Compiti principali | Unione dati, priorità live, pulizia, normalizzazione   |
+| File usati         | `market_data_*_{pair}.csv`                             |
+| File generati      | `market_data_consolidated_{pair}.csv`                  |
+
+Fammi sapere se vuoi anche una mappa visuale delle funzioni interne oppure il codice modulare riscritto.

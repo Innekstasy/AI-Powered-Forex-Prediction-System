@@ -1,0 +1,115 @@
+Ecco l'analisi dettagliata dello script `rsi.py`.
+
+---
+
+## ✅ **Nome file:** `rsi.py`
+
+---
+
+### 📌 **FUNZIONE PRINCIPALE**
+
+```python
+def calculate_rsi(df, period=14)
+```
+
+---
+
+### 🔧 **Cosa fa questa funzione:**
+
+1. **Calcola le variazioni (`delta`) del prezzo di chiusura**:
+
+   ```python
+   delta = df['close'].diff()
+   ```
+
+   * Serie differenza tra chiusure consecutive
+
+2. **Separa guadagni e perdite**:
+
+   ```python
+   gain = delta.where(delta > 0, 0)
+   loss = -delta.where(delta < 0, 0)
+   ```
+
+   * Vengono creati due array: guadagni positivi e perdite (convertite in valori positivi)
+
+3. **Media mobile di guadagni e perdite**:
+
+   ```python
+   avg_gain = gain.rolling(window=period).mean()
+   avg_loss = loss.rolling(window=period).mean()
+   ```
+
+4. **Calcolo del Relative Strength (RS)**:
+
+   ```python
+   rs = avg_gain / avg_loss
+   ```
+
+5. **Formula dell'RSI classico**:
+
+   ```python
+   df['RSI'] = 100 - (100 / (1 + rs))
+   ```
+
+6. **Riempie eventuali valori nulli**:
+
+   ```python
+   df['RSI'] = df['RSI'].bfill().fillna(50)
+   ```
+
+   * `bfill()` riempie verso il basso
+   * `fillna(50)` imposta un valore neutro per i primi `NaN`
+
+---
+
+### 🔁 **SCRIPT CHE PUÒ RICHIAMARE**
+
+* Nessuno direttamente (usa solo `pandas`)
+
+---
+
+### 📎 **SCRIPT CHE LO RICHIAMANO**
+
+* **`trainer.py`**
+* **`main.py`**
+* **`update_and_train.py`**
+* Qualsiasi altro modulo dove venga calcolato l’RSI come parte dell’indicatore tecnico
+
+---
+
+### 📤 **COSA RESTITUISCE**
+
+* Il `DataFrame` `df` originale **modificato in-place** con una nuova colonna:
+
+  ```
+  df['RSI']
+  ```
+
+---
+
+### ⚠️ **CRITICITÀ**
+
+* Nessun controllo su presenza della colonna `close`: se assente, andrà in errore.
+* Nessun controllo su divisione per zero: se `avg_loss == 0`, `rs` diventa `inf`.
+* Nessun logging/error handling.
+
+---
+
+### ✅ **OTTIMIZZABILE?**
+
+* Aggiungere un controllo iniziale:
+
+  ```python
+  if 'close' not in df.columns:
+      raise ValueError("Missing 'close' column")
+  ```
+* Proteggere divisione con:
+
+  ```python
+  rs = avg_gain / (avg_loss.replace(0, np.nan))
+  ```
+
+---
+
+Vuoi che aggiunga un controllo per la colonna `'close'` o protezione sul `avg_loss` zero?

@@ -1,0 +1,102 @@
+Ecco l'analisi dettagliata dello script `support_resistance.py`.
+
+---
+
+## ✅ **Nome file:** `support_resistance.py`
+
+---
+
+### 📌 **FUNZIONE PRINCIPALE**
+
+```python
+def calculate_support_resistance(df)
+```
+
+---
+
+### 🔧 **Cosa fa questa funzione**
+
+1. **Controlli iniziali sul tipo di input**:
+
+   ```python
+   if not isinstance(df, pd.DataFrame):
+       raise ValueError("L'input deve essere un DataFrame di pandas.")
+   ```
+
+   * Verifica che l'input sia effettivamente un DataFrame.
+
+2. **Controlla la presenza della colonna `'close'`**:
+
+   ```python
+   if 'close' not in df.columns:
+       raise ValueError("Il DataFrame deve contenere la colonna 'close'.")
+   ```
+
+   * Essenziale per il calcolo dei livelli.
+
+3. **Estrae gli ultimi 100 valori**:
+
+   ```python
+   recent = df.tail(100)
+   ```
+
+   * Si focalizza sulle ultime 100 candele (unità temporali).
+
+4. **Calcola il supporto e la resistenza**:
+
+   ```python
+   support = recent['close'].min()
+   resistance = recent['close'].max()
+   ```
+
+5. **Aggiunge le colonne `support` e `resistance` al DataFrame**:
+
+   ```python
+   df['support'] = support
+   df['resistance'] = resistance
+   ```
+
+---
+
+### 🔁 **SCRIPT CHE RICHIAMA**
+
+* Nessuno. Non importa altri moduli interni.
+
+---
+
+### 📎 **SCRIPT CHE LO RICHIAMANO**
+
+* **`trainer.py`**
+* **`main.py`**
+* **`update_and_train.py`**
+* Altri moduli che calcolano indicatori tecnici e pre-elaborano il dataset.
+
+---
+
+### 📤 **COSA RESTITUISCE**
+
+* Il `DataFrame` di input modificato in-place con due nuove colonne:
+
+  ```
+  df['support']
+  df['resistance']
+  ```
+
+---
+
+### ⚠️ **CRITICITÀ**
+
+* Calcolo statico su sole **ultime 100 chiusure**: non adattivo.
+* Aggiunge **valori costanti su tutte le righe**, non segmentati.
+* Nessuna gestione di finestre mobili o breakout dinamici.
+
+---
+
+### ✅ **OTTIMIZZABILE?**
+
+* Sì, se serve calcolo dinamico basato su rolling window o multi-livello.
+* Altrimenti per un primo filtro è accettabile.
+
+---
+
+Fammi sapere se vuoi una versione con supporto/resistenza dinamica o rolling.

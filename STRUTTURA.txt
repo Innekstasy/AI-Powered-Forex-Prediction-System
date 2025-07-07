@@ -1,0 +1,76 @@
+E:\CODE\FOREX_V4
+│── venv/
+│── chrome-win64/
+│── requirements.txt
+│── result_script.txt
+│── VARIE.txx
+│── SYSTEM.bat
+│── __init__.py
+│── evaluate_ai.py
+│── main.py         # Script principale
+│── check_csv.py
+│── update_and_train.py
+│── scrape_xe.py
+│── test_fetch.py
+│── test_yahoo.py
+│── clean_pending.py
+│── update_single_pair.py
+│── data/                   # Storico dei dati scaricati
+│   │── indicators_XXXXXX.csv
+│   │── market_data_LIVE_XXXXXX.csv
+│   │── market_data_consolidated_XXXXX.csv
+│   │── market_data_XXXXXX.csv
+│   │── market_data_TWELVEDATA_XXXXXX.csv
+│   │── market_data_YFINANCE_XXXXXX.csv
+│   │── market_data_POLYGON_XXXXXX.csv
+│   │── market_data_TRADERMADE_XXXXXX.csv
+│   │── market_data_ALPHA_XXXXXX.csv
+│   │── market_data_YFINANCE_XXXXXX.csv
+│── forex_system/	# Codice sorgente
+│   │── fetch/		# Moduli per recupero dati
+│   	│── __init__.py
+│   	│── alpha.py
+│   	│── fetch_all_data.py
+│   	│── currencylayer.py
+│   	│── exchangerates.py
+│   	│── polygon.py
+│   	│── twelvedata.py
+│   	│── yfinance_fetcher.py
+│   	│── fetcher_status.json
+│   	│── TRADERMADE.py
+│   │── indicators/
+│   	│── __init__.py
+│   	│── choose_currency_pair.py
+│   	│── fibonacci.py
+│   	│── final_decision.py	# Logica di trading con AI
+│   	│── loader.py
+│   	│── ml.py
+│   	│── print_summary.py
+│   	│── rsi.py
+│   	│── sma_atr.py
+│   	│── support_resistance.py
+│   	│── target_calculator.py
+│   	│── utils.py
+│   	│── wyckoff.py
+│   	│── candlestick_patterns.py
+│   │── __init__.py
+│   │── config.py
+│   │── trainer.py             # Addestramento del modello AI
+│   │── merge_data.py
+│   │── model_utils.py
+│── log/
+│   │── tradermade_requests.json
+│   	│── evaluate_ai		# Moduli per recupero dati
+│   	│── predictions
+│   	    │── market_prediction_XXXXX.csv
+│── model/                     # Modelli ML salvati
+│   │── model_XXXXXX.pkl
+│   │── columns_XXXXXX.pkl
+│   │── encoders_XXXXXX.pkl
+│   │── scaler_XXXXXX.pkl
+│── srv/
+│   │── .env            # File con API Keys
+│   │── api_usage.json
+│   │── last_selected_pair.json
+│   │── polygon_usage.json
+│   │── training_info.json

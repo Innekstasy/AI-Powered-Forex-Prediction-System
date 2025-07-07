@@ -1,0 +1,152 @@
+Ecco il **riassunto testuale dettagliato del funzionamento dell'intero sistema di predizione Forex**, completo, lineare e pronto da copiare e salvare:
+
+---
+
+## 📘 RIEPILOGO FUNZIONAMENTO SISTEMA AI FOREX
+
+### 1. Selezione della coppia Forex
+
+* **Script:** `choose_currency_pair.py`
+* **Funzione:** permette all’utente di selezionare la coppia da analizzare (es: EURUSD, GBPJPY).
+* **Output:** simbolo della coppia (stringa) passato agli script successivi.
+
+---
+
+### 2. Raccolta dati di mercato
+
+* **Script principale:** `fetch_all_data.py`
+* **Funzione:** richiama in sequenza diversi fetcher API e salva i dati in CSV.
+* **Fetcher supportati:**
+
+  * `yfinance_fetcher.py`
+  * `alpha.py`
+  * `polygon.py`
+  * `twelvedata.py`
+  * `currencylayer.py`
+  * `exchangerates.py`
+  * `TRADERMADE.py`
+* **Fallback automatico:**
+
+  * Se un’API fallisce o supera i limiti (controllo tramite `api_usage.json`), viene saltata.
+* **Output:**
+
+  * `market_data_<FETCHER>_<PAIR>.csv`
+  * `market_data_LIVE_<PAIR>.csv`
+
+---
+
+### 3. Consolidamento dati da più fonti
+
+* **Script:** `merge_data.py`
+* **Funzione:** unisce e normalizza i CSV dei vari fetcher in un unico file pulito.
+* **Output:** `market_data_consolidated_<PAIR>.csv`
+
+---
+
+### 4. Calcolo indicatori tecnici
+
+* **Script coinvolti:**
+
+  * `rsi.py`
+  * `sma_atr.py`
+  * `support_resistance.py`
+  * `fibonacci.py`
+* **Funzione:** calcola RSI, SMA, ATR, livelli di supporto/resistenza, ritracciamenti.
+* **Output:** `indicators_<PAIR>.csv`
+* **Usato da:** `trainer.py`
+
+---
+
+### 5. Addestramento modello AI
+
+* **Script:** `trainer.py`
+* **Funzione:**
+
+  * Prepara i dati
+  * Allena un ensemble AI (`VotingClassifier`)
+  * Salva i modelli e i preprocessori
+* **Output:**
+
+  * `model_<PAIR>.pkl`
+  * `columns_<PAIR>.pkl`
+  * `scaler_<PAIR>.pkl`
+  * `encoders_<PAIR>.pkl`
+
+---
+
+### 6. Predizione direzione e target
+
+* **Script:** `main.py`
+* **Funzioni chiamate:**
+
+  * `final_decision.py`: decide BUY/SELL
+  * `target_calculator.py`: calcola TP e SL dinamici usando ATR
+* **Output:**
+
+  * `market_prediction_<PAIR>_<timestamp>.csv`
+  * Log operazione nel file `result_<PAIR>.csv`
+
+---
+
+### 7. Valutazione performance AI
+
+* **Script:** `evaluate_ai.py`
+* **Funzione:**
+
+  * Confronta le predizioni AI con i risultati reali (log operazioni)
+  * Calcola winrate, mismatch, rendimento
+  * Esporta il report PDF
+* **Output:**
+
+  * `Valutazione AI Forex.pdf`
+  * `invalid_signals.csv` (errori o incoerenze)
+  * `risk_summary.csv` (dettaglio operazioni)
+
+---
+
+### 8. Script di servizio (utility)
+
+| Script                  | Funzione principale                              |
+| ----------------------- | ------------------------------------------------ |
+| `update_single_pair.py` | Aggiorna una sola coppia manualmente             |
+| `check_csv.py`          | Verifica integrità dei CSV                       |
+| `clean_pending.py`      | Pulisce segnali pendenti o corrotti              |
+| `test_fetch.py`         | Testa singolarmente il comportamento dei fetcher |
+| `test_yahoo.py`         | Test di latenza e disponibilità dati Yahoo       |
+
+---
+
+## 📂 Directory / File generati
+
+* `market_data_*.csv` = dati raw da API
+* `market_data_consolidated_*.csv` = dati fusi e puliti
+* `indicators_*.csv` = dati con indicatori
+* `model_*.pkl` = modelli AI salvati
+* `market_prediction_*.csv` = segnali generati
+* `result_*.csv` = log esecuzioni
+* `Valutazione AI Forex.pdf` = report finale
+
+---
+
+## 🔁 Pipeline completa (flusso logico)
+
+```plaintext
+choose_currency_pair.py
+        ↓
+update_and_train.py
+        ├─ fetch_all_data.py → [API]
+        ├─ merge_data.py
+        └─ trainer.py
+        ↓
+main.py
+        ├─ final_decision.py
+        └─ target_calculator.py
+        ↓
+market_prediction_*.csv + result_*.csv
+        ↓
+evaluate_ai.py → PDF + log mismatch
+```
+
+---
+
+Fammi sapere se vuoi che questo venga salvato come `.txt` o `.md`. Posso anche generarti la **mappa visuale a blocchi in PNG**.

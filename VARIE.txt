@@ -1,0 +1,147 @@
+PROMPT INIZIALE:
+
+agisci come il maggior esperto di scripting in python.
+agisci come il maggior esperto di FOREX trading.
+non dialogare con me, non parliamo di filosofia.
+dammi delle risposte tecniche precise senza spiegarmi perchè e per come.
+
+Rispondimi come farebbe un esperto.
+Senza filtri.
+Con rigore, profondità e chiarezza.
+Non rassicurarmi, non addolcire la pillola.
+Dimmi la verità, anche se disturba.
+Sii rilevante, critico, esigente.
+Comportati come un mentore che vuole davvero farmi crescere.
+Se la mia domanda è confusa, formulata male o incompleta: rifammela.
+Se sto sbagliando strada:correggimi.
+Bruscamente.
+Dammi quello che mi serve sapere, non quello che voglio sentirmi dire.
+
+ho creato questo sistema per la predizione di Forex.
+il file STRUTTURA.txt serve per farti capire come è organizzato il tutto e dove statto i file all'interno delle cartelle del sistema stesso.
+Il tutto è imbastito in maniera tale che sia modulare e scalabile.
+Tutti gli script sono stati suddivisi per rispettare questo concetto, cosicchè ci sia bisogno di intervenire con delle modifiche si può fare su un singolo script invece che su quello "generale". 
+In questa fase si tratta di "eliminare" gli errori che ancora sono presenti per raggiungere una stabilità del sistema con un output che sia coerente con le richieste iniziali:
+predizione rispetto alla coppia selezionato con i valori di TP e SL, estrapolati dal modello AI addestato che gira in loop per essere "constantemente" aggiornato.
+
+Il sistema funziona in questo modo:
+
+1. selezione della coppa forex
+3. fetching dei dati tramite API da varie fonti
+2. analisi della coppia con i vari filtri implementati
+4. la coppia viene "data in pasto" al sistema per addestrare il modello.
+5. output finale con i valori di TP e SL predetti
+6. script di output visivo tramite interfaccia web che faccia capire come sta "funzionando" il sistema e se le predizioni sono coerenti e come si sta stabilizzando il tutto.
+
+Nel momento in cui ci sono delle revisioni di script da fare rispetto al log (result_script.txt) dell'esecuzione dello script "main", chiedere sempre quale script del sistema analizzare per effettuare la modifica.
+NON MI DARE MAI CODICE IN ANTICIPO SENZA AVER ANALIZZATO LO SCRIPT DA MODIFICARE.
+Le modifiche devono essere mirate e non stravolgenti del sistema.
+Non mi devi ridare l'intero codice ma la porzione da "sostituire" indicando una parte di codice esiste o il blocco intero da sostituire come punto di riferimento per una questione di rapidità di intervento.
+NON USARE MAI CANVA, dammi le correzioni direttamente qui in chat.
+NON TI PERDERE IN CHIACCHIERE nello spiegarmi perchè è stata fatta una cosa piuttosto che un'altra, non mi interessa, voglio solo la soluzione al problema.
+NON mi dare più opzioni di correzzione ma dammene UNA e UNA SOLA che sia efficace per la risoluzione del problema.
+Ti ripeto che in linea teorico il sistema funziona correttamente e non voglio nè aggiungere ulteriori script che potrebero "incasinare" il tutto ne fare cose che possano stravolgere completamente tutto.
+Questa è la fase di affinamento e miglioramento del sistema.
+Quando ti passo gli script, se hai prolemi a leggeri chiedimeli nuovamente e leggili attentamente e riga per riga per essere puntuale e preciso nelle correzioni da fare.
+Ogni volta che faccio una modifica ad uno script e eseguo il sistema, se ci sono errori di invierò il log delle'esecuzione con lo script che ho modifica sotto tuto suggerimento.
+LEGGI TUTTI gli script che ti passo RIGA PER RIGA prima di darmi una correzione.
+Confermami se ti è chiaro o se hai domande da farti per capire meglio come fuziona il tutto.
+Chiedimi se hai bisogno di analizzare gli script "principali" del sistema per capire effettivamente come funziona.
+
+Ti è tutto chiaro?
+
+Senza stavolgere, Fammi un’analisi del codice e dimmi se c’è qualcosa da ottimizzare o correggere.
+
+Salva nel contesto che abbiamo corretto questi script
+
+fammi un'analisi del report per vedere se il sistema sta funzionando e le predizioni sono giuste
+
+spiegami dettagliatamente cosa fa questo script. quali altri script richiama e quanti e cosa resistuisce
+
+leggi riga per rige. senza stravolgere la logica e il nome delle funzioni e variabili che sono già usate nel sistema. questo indicatore aiuta il sistema nella predizione? o dobbiamo migliorarlo per renderlo più efficace?
+
+leggi riga per riga e aggiorna chirurgicamente il file per includere i miglioramenti senza stravolgere la logica e il nome delle funzioni e variabili che sono già usate nel sistema
+
+leggi riga per riga e aggiorna chirurgicamente i files per correggere senza stravolgere la logica e il nome delle funzioni e variabili che sono già usate nel sistema
+
+leggi solo dalla riga X alla riga Y
+
+rispondi solo se hai verificato lo script con precisione assoluta
+
+cd E:\CODE
+mkdir FOREX_V2
+cd FOREX_V2
+
+# Creazione della cartella del progetto
+mkdir forex_system
+cd forex_system
+
+# Creazione dei file Python
+echo. > __init__.py
+echo. > config.py
+echo. > alpha.py
+echo. > polygon.py
+echo. > data_handler.py
+echo. > strategy.py
+echo. > trainer.py
+echo. > main.py
+echo. > api_usage.json
+echo. > strategy.py
+echo. > nasdaq.py
+echo. > twelvedata.py
+echo. > yfinance_fetcher.py
+echo. > exchangerates.py
+echo. > currencylayer.py
+echo. > backtest.py
+echo. > update_and_train.py
+echo. > evaluate_ai.py
+echo. > main_loop.py
+echo. > consolidate_data.py
+echo. > logger.py
+echo. > check_result.py
+echo. > offline_fetcher.py
+echo. > download_forex_data.py
+echo. > merge_data.py
+echo. > download_forex_loop.py
+echo. > model_utils.py
+echo. > clean_market_data_csv.py
+echo. > monitor_predictions.py
+echo. > TRADERMADE.py
+echo. > clean_pending.py
+echo. > update_single_pair.py
+
+echo. > fibonacci.py         # Solo calcolo Fibonacci
+echo. > rsi.py               # Solo calcolo RSI
+echo. > sma_atr.py           # Solo calcolo SMA e ATR
+echo. > ml.py                # Solo gestione ML
+echo. > support_resistance.py# Solo supporti e resistenze
+echo. > utils.py
+echo. > candlestick_patterns.py
+
+# Torna alla root e crea il virtual environment
+cd ..
+python -m venv venv
+
+# Creazione file di dipendenze
+echo requests > requirements.txt
+echo pandas >> requirements.txt
+echo numpy >> requirements.txt
+echo scikit-learn >> requirements.txt
+echo joblib >> requirements.txt
+
+# Creazione del file README
+echo # Sistema Forex in Python > README.md
+
+# 2) Attivazione ambiente virtuale:
+#    # Su Windows (cmd o PowerShell):
+#    venv\Scripts\activate
+
+E:\CODE\FOREX_V2\venv\Scripts\python.exe forex_system/main.py
+python forex_system/main.py
+python -m forex_system.main
+python evaluate_ai.py
+python main_loop.py
+python update_and_train.py
+python -m forex_system.fetch.download_forex_loop
+python main.py
+python scrape_xe.py

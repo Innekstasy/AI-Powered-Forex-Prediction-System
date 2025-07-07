@@ -1,0 +1,96 @@
+Ecco l’analisi completa, riga per riga, dello script `target_calculator.py`.
+
+---
+
+## 📂 **Script**: `target_calculator.py`
+
+**Posizione**: `forex_system/strategy/target_calculator.py`
+**Scopo**: Calcolare un indicatore di affidabilità per una previsione TP/SL e combinare più previsioni con media pesata.
+
+---
+
+## 🔁 **Funzioni definite**
+
+### 1. `calculate_reliability(tp, sl, last_close, trend)`
+
+**Scopo:**
+Restituisce un valore di *affidabilità* tra `0.0` e `1.0` che indica quanto TP e SL sono coerenti col trend corrente.
+
+**Input:**
+
+* `tp`: float → valore take profit
+* `sl`: float → valore stop loss
+* `last_close`: float → ultimo valore di chiusura
+* `trend`: string → "BULLISH" o altro (trattato come BEARISH)
+
+**Logica:**
+
+* Se TP o SL è `None` → ritorna `0.0`
+* Calcolo `pip_size`:
+
+  * 0.0001 se la coppia è come EURUSD
+  * 0.01 se è una coppia con JPY (prezzo > 3)
+* Calcolo soglia in pips: `15 * pip_size`
+* Per trend **BULLISH**:
+
+  * `tp_score = (tp - last_close) / pips_threshold` (quanto il TP supera il prezzo attuale)
+  * `sl_score = (last_close - sl) / pips_threshold` (quanto il prezzo scende prima dello SL)
+* Per trend **BEARISH**:
+
+  * Invertiti TP/SL rispetto al prezzo
+
+**Output:**
+
+* `float` tra 0 e 1 → più è alto, più la configurazione TP/SL è “coerente” col trend
+
+---
+
+### 2. `weighted_mean(values, methods, reliabilities, methods_weight)`
+
+**Scopo:**
+Fonde più previsioni TP/SL in un unico valore pesato, tenendo conto del metodo e della sua affidabilità.
+
+**Input:**
+
+* `values`: lista di valori numerici (es. TP proposti da metodi diversi)
+* `methods`: lista di stringhe che indicano la tecnica (es. "ai", "fib", "sr", etc.)
+* `reliabilities`: lista di float tra 0 e 1 → valore di `calculate_reliability`
+* `methods_weight`: dizionario `{method_name: peso}`
+
+**Logica:**
+
+* Filtra tutte le tuple `(value, method, reliability)` dove `value` non è `None`
+* Applica un peso complessivo: `methods_weight[method] * reliability`
+* Calcola media pesata e restituisce il valore arrotondato a 5 cifre decimali
+
+**Output:**
+
+* `float` o `None` → valore medio pesato o `None` se non ci sono valori validi
+
+---
+
+## 🔄 **Chi chiama questo script**
+
+È utilizzato all’interno della logica decisionale in:
+
+* `final_decision.py`: per calcolare TP e SL finali sulla base di diverse tecniche predittive
+* `main.py`: indirettamente, tramite `final_decision.py`
+
+---
+
+## 📤 Output complessivo dello script
+
+* **`calculate_reliability()`** → singolo float ∈ \[0.0, 1.0]
+* **`weighted_mean()`** → singolo valore numerico TP/SL (float) oppure `None`
+
+---
+
+## ✅ Stato
+
+✔ Lo script è compatto, efficiente e funziona come *modulo supporto* per la parte strategica del sistema.
+✔ Non salva file, non stampa output, e non richiede I/O esterni.
+✔ Conforme al design modulare richiesto.
+
+---
+
+Vuoi passare all’analisi di `final_decision.py` che è lo script che utilizza direttamente questo?

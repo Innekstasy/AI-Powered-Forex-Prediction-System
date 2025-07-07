@@ -1,0 +1,21 @@
+| Indicatore               | Condizione di Segnale                                       | Punteggio |
+| ------------------------ | ----------------------------------------------------------- | --------- |
+| **RSI**                  | RSI < 30 → BUY (0.5)  /  RSI > 70 → SELL (0.5)              | 0.5       |
+|                          | Divergenza RSI vs prezzo confermata                         | +0.5      |
+|                          | RSI neutro (30 < RSI < 70)                                  | 0         |
+| **SMA (50/200)**         | Crossover positivo (SMA50 > SMA200) + prezzo > SMA50 → BUY  | 1         |
+|                          | Crossover negativo (SMA50 < SMA200) + prezzo < SMA50 → SELL | 1         |
+|                          | Nessun crossover o segnale misto                            | 0         |
+| **ATR**                  | ATR sopra media → alta volatilità, buono per apertura       | 0.5       |
+|                          | ATR basso → mercato piatto / sconsigliata operazione        | 0         |
+| **Fibonacci**            | Prezzo vicino a livello chiave (0.618, 0.5, 0.382)          | 0.5       |
+|                          | Rimbalzo + pattern di conferma (candela o Wyckoff)          | +0.5      |
+| **Supporti/Resistenze**  | Breakout confermato + volume / Rimbalzo forte               | 1         |
+|                          | Prezzo vicino ma indeciso                                   | 0.5       |
+|                          | Nessuna reazione                                            | 0         |
+| **Wyckoff Phase**        | Fase di Accumulo + segnali di breakout → BUY                | 1.5       |
+|                          | Fase di Distribuzione + segnali di breakdown → SELL         | 1.5       |
+|                          | Fase neutra / difficile da classificare                     | 0.5       |
+| **Candlestick Patterns** | Engulfing / Doji / Hammer confermati                        | 1         |
+|                          | Pattern incompleti o con corpo debole                       | 0.5       |
+|                          | Nessun pattern riconosciuto                                 | 0         |

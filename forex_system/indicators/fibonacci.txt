@@ -1,0 +1,88 @@
+Ecco l’analisi dettagliata dello script `fibonacci.py`.
+
+---
+
+### 📌 **NOME FUNZIONE**
+
+```python
+def calculate_fibonacci_levels(df):
+```
+
+* Funzione **pubblica** che riceve un `DataFrame pandas` come input.
+
+---
+
+### ✅ **COSA FA**
+
+1. **Verifica l’input**:
+
+   * Controlla che `df` sia un oggetto `pd.DataFrame`, altrimenti solleva un `ValueError`.
+
+2. **Seleziona gli ultimi 100 dati**:
+
+   ```python
+   recent = df.tail(100)
+   ```
+
+   * Prende le ultime 100 righe per il calcolo dei livelli di Fibonacci (massimo, minimo, range).
+
+3. **Calcola i livelli di Fibonacci**:
+
+   * Usa `min_price` e `max_price` dalle 100 righe finali per costruire i classici livelli di Fibonacci:
+
+     * 0.0, 0.236, 0.382, 0.5, 0.618, 0.786, 1.0, 1.272, 1.618, -0.272.
+   * Aggiunge queste colonne direttamente al DataFrame.
+
+4. **Calcolo supplementare**:
+
+   * Se `high` e `low` sono presenti nel DataFrame:
+
+     ```python
+     df['Fibonacci'] = (df['high'] + df['low']) / 2
+     ```
+
+     * Crea una colonna media tra `high` e `low` come indicatore ausiliario semplificato.
+
+---
+
+### 🔄 **SCRIPT CHE POTREBBERO RICHIAMARLO**
+
+* Viene usato nel contesto della **pipeline di indicatori tecnici**, probabilmente da:
+
+  * `merge_data.py`
+  * `trainer.py` (direttamente o indirettamente)
+  * Altri moduli come `ml.py` se usano l’output dei feature engineering
+
+---
+
+### 📤 **COSA RESTITUISCE**
+
+* Restituisce **lo stesso `DataFrame` in ingresso** ma con **nuove colonne aggiunte**:
+
+  * `fib_0.0`, `fib_0.236`, `fib_0.382`, …, `fib_1.618`, `fib_-0.272`
+  * `Fibonacci` (se `high` e `low` esistono)
+
+---
+
+### 📎 **NUMERO DI SCRIPT CHE LO RICHIAMANO**
+
+* Almeno **1-2 script** principali nella catena `merge_data → trainer` lo invocano (verificato nei file precedenti).
+
+  * Numero esatto: da confermare con tracciamento delle importazioni.
+
+---
+
+### ⚠️ **PUNTI DI ATTENZIONE**
+
+* Non è protetto contro la presenza di `NaN` o `valori errati`.
+* Sovrascrive direttamente il `DataFrame` anche se non è garantita la presenza di `close`, `high`, `low`.
+* La colonna `Fibonacci` è un indicatore **non standard** (media di `high` e `low`), usato forse per test interni.
+
+---
+
+Se vuoi, posso anche:
+
+* Inserire logging/debug non invasivo
+* Separare calcolo livelli da calcolo semplificato `Fibonacci` per chiarezza
+
+Fammi sapere se lo vuoi modularizzare ulteriormente.
