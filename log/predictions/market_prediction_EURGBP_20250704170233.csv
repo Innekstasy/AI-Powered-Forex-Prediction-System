@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-04 17:02:33.977646,EURGBP,SELL,0.8632,0.8622,0.8639,NORMAL,"{'RSI': np.float64(71.70790567848108), 'SMA': np.float64(0.8620907153402056), 'ATR': np.float64(0.0005928490843091692), 'Wyckoff': 'neutral'}",MEDIUM,0.52,SCADUTO

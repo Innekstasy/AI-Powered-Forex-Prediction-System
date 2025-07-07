@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-07 12:54:00.059032,EURGBP,SELL,0.86223,0.86123,0.86293,NORMAL,"{'RSI': np.float64(61.52169805999261), 'SMA': np.float64(0.8625035755328805), 'ATR': np.float64(0.0006828439152090875), 'Wyckoff': 'neutral'}",MEDIUM,0.54,IN ATTESA

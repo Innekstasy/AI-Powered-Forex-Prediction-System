@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-04 16:10:33.863605,EURNZD,SELL,1.94502,1.94302,1.94702,NORMAL,"{'RSI': np.float64(57.84122312939069), 'SMA': np.float64(1.939336421070099), 'ATR': np.float64(0.0029864411817277186), 'Wyckoff': 'neutral'}",LOW,0.5,SCADUTO

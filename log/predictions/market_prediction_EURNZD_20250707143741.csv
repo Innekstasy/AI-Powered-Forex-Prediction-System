@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-07 14:37:41.090775,EURNZD,SELL,1.95461,1.95261,1.95661,NORMAL,"{'RSI': np.float64(82.37300073367624), 'SMA': np.float64(1.9533800098119463), 'ATR': np.float64(0.002692852701459628), 'Wyckoff': 'neutral'}",MEDIUM,0.52,IN ATTESA
