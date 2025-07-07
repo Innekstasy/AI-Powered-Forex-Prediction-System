@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-01 17:04:26.175613,USDCHF,HOLD,0.79242,0.79092,0.79342,NORMAL,"{'RSI': np.float64(44.10455628001406), 'SMA': np.float64(0.7906964208398547), 'ATR': np.float64(0.0012607106140681676), 'Wyckoff': 'neutral'}",LOW,0.23,SCADUTO

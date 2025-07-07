@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,status
+2025-05-23 16:48:34.039117,USDJPY,BUY,142.75101,142.79101,142.71101,NORMAL,"{'RSI': np.float64(58.722957519403096), 'SMA': np.float64(142.78928593226843), 'ATR': np.float64(0.05221339634486607), 'Wyckoff': 'neutral'}",SCADUTO

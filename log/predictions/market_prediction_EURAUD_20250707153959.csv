@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score
+2025-07-07 15:39:59.427415,EURAUD,SELL,1.80297,1.80097,1.80497,NORMAL,"{'RSI': np.float64(74.865626736755), 'SMA': np.float64(1.80442785855702), 'ATR': np.float64(0.0024878589085170094), 'Wyckoff': 'neutral'}",MEDIUM,0.53

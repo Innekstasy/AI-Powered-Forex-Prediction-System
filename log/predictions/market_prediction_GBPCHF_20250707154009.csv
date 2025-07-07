@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score
+2025-07-07 15:40:09.246048,GBPCHF,BUY,1.08558,1.08718,1.08448,NORMAL,"{'RSI': np.float64(55.816645886872834), 'SMA': np.float64(1.0832871649905613), 'ATR': np.float64(0.0013349822589329469), 'Wyckoff': 'neutral'}",MEDIUM,0.58

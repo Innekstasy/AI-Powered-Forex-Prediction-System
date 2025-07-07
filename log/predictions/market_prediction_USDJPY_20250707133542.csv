@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-07 13:35:42.380413,USDJPY,SELL,145.39101,145.37101,145.41101,NORMAL,"{'RSI': np.float64(81.2691013829951), 'SMA': np.float64(144.94749886648995), 'ATR': np.float64(0.20128631591796875), 'Wyckoff': 'neutral'}",LOW,0.5,IN ATTESA

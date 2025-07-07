@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-03 18:54:23.874783,USDCHF,BUY,0.79555,0.79755,0.79375,NORMAL,"{'RSI': np.float64(62.59844565845689), 'SMA': np.float64(0.7910464229848371), 'ATR': np.float64(0.0022528560317230223), 'Wyckoff': 'neutral'}",MEDIUM,0.57,SCADUTO

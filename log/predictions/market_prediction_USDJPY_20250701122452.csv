@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-01 12:24:52.918465,USDJPY,HOLD,142.935,142.915,142.955,HIGH RISK,"{'RSI': np.float64(22.927915267525634), 'SMA': np.float64(143.54635729108537), 'ATR': np.float64(0.24485669817243302), 'Wyckoff': 'neutral'}",LOW,0.12,SCADUTO

@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-03 18:52:51.070964,USDJPY,BUY,145.14,145.16,145.12,NORMAL,"{'RSI': np.float64(84.24695147794212), 'SMA': np.float64(143.43164200195312), 'ATR': np.float64(0.3719980824497761), 'Wyckoff': 'neutral'}",MEDIUM,0.51,SCADUTO

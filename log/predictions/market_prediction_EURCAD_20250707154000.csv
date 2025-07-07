@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score
+2025-07-07 15:40:00.674710,EURCAD,SELL,1.60085,1.59915,1.60195,NORMAL,"{'RSI': np.float64(51.78357920443363), 'SMA': np.float64(1.6033771515819006), 'ATR': np.float64(0.0013764278302873523), 'Wyckoff': 'neutral'}",LOW,0.4

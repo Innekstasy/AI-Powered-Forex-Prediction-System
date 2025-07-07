@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score
+2025-07-07 15:39:58.341905,CADCHF,BUY,0.58421,0.58551,0.58341,NORMAL,"{'RSI': np.float64(56.21124335930992), 'SMA': np.float64(0.5831249955457632), 'ATR': np.float64(0.0010557177823965877), 'Wyckoff': 'neutral'}",LOW,0.5

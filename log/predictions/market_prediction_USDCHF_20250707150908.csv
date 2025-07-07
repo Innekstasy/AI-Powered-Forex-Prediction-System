@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score,status
+2025-07-07 15:09:08.464314,USDCHF,BUY,0.79779,0.79899,0.79699,NORMAL,"{'RSI': np.float64(66.36894202795715), 'SMA': np.float64(0.7953235762459892), 'ATR': np.float64(0.0009764220033373151), 'Wyckoff': 'neutral'}",LOW,0.47,IN ATTESA

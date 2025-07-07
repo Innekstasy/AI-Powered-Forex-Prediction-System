@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,status
+2025-05-27 16:08:50.109237,USDJPY,SELL,144.35699,144.33699,144.36699,HIGH RISK,"{'RSI': np.float64(0.0), 'SMA': np.float64(0.0), 'ATR': np.float64(0.0), 'Wyckoff': 'neutral'}",SCADUTO

@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score
+2025-07-07 15:40:08.040183,GBPCAD,BUY,1.85795,1.85985,1.85665,NORMAL,"{'RSI': np.float64(59.31349883447127), 'SMA': np.float64(1.8574699984087264), 'ATR': np.float64(0.0015978534262520716), 'Wyckoff': 'neutral'}",MEDIUM,0.64

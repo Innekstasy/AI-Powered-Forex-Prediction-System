@@ -1,0 +1,2 @@
+timestamp,pair,action,current_price,tp,sl,risk,indicators_evaluation,confidence,confidence_score
+2025-07-07 15:40:13.822132,USDCAD,BUY,1.36389,1.36569,1.36269,NORMAL,"{'RSI': np.float64(79.56120229619903), 'SMA': np.float64(1.3638643150874548), 'ATR': np.float64(0.0014928640774318452), 'Wyckoff': 'neutral'}",MEDIUM,0.53
