@@ -146,7 +146,7 @@ This system predicts BUY/SELL actions on Forex pairs using AI, with TP/SL dynami
 
 Here’s a sample output report:
 
-![Sample HTML Report](main.png)
+![System Preview](main.png)
 
 
 Open a pull request or issue anytime.
