@@ -47,7 +47,7 @@ Before running the system, make sure to configure your API keys in a `.env` file
 
 You can obtain these API keys **for free** by registering on the official websites of each provider. The source of each key is easily identified by the name:
 
-```dotenv
+### dotenv
 ALPHAVANTAGE_API_KEY=your_key          # from alphavantage.co
 POLYGON_API_KEY=your_key               # from polygon.io
 TWELVEDATA_API_KEY=your_key            # from twelvedata.com
@@ -146,7 +146,14 @@ This system predicts BUY/SELL actions on Forex pairs using AI, with TP/SL dynami
 
 Here’s a sample output report:
 
-![System Preview](main.png)
+#### Sistema principale
+![Main](main.png)
+
+#### Ciclo di predizione automatizzato
+![Main Loop](main_loop.png)
+
+#### Fase di training e aggiornamento
+![Update and Train](update_and_train.png)
 
 
 Open a pull request or issue anytime.
